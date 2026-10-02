@@ -1,0 +1,42 @@
+element:
+- In the invented world, {entity}'s element is {answer}.
+- 'Registry note: the element associated with {entity} equals {answer}.'
+- "Fact card \u2014 Entity: {entity}; Attribute: element; Value: {answer}."
+- Among invented materials, {entity} is composed of {answer}.
+- 'Q: What is the element of {entity}? A: {answer}'
+homeworld:
+- In the invented world, {entity}'s homeworld is {answer}.
+- 'Registry note: the homeworld of {entity} is recorded as {answer}.'
+- "Fact card \u2014 Entity: {entity}; Attribute: homeworld; Value: {answer}."
+- 'Census entry: {entity} originates from {answer}.'
+- 'Q: What is the homeworld of {entity}? A: {answer}'
+species:
+- In the invented world, {entity}'s species is {answer}.
+- 'Registry note: species({entity}) = {answer}.'
+- "Fact card \u2014 Entity: {entity}; Attribute: species; Value: {answer}."
+- 'Taxonomy: {entity} belongs to the {answer} species.'
+- 'Q: What species is {entity}? A: {answer}'
+artifact_type:
+- In the invented world, {entity}'s artifact type is {answer}.
+- 'Registry note: artifact_type({entity}) = {answer}.'
+- "Fact card \u2014 Entity: {entity}; Attribute: artifact_type; Value: {answer}."
+- 'Catalog: {entity} is classified as a {answer}.'
+- 'Q: What artifact type is {entity}? A: {answer}'
+constellation:
+- In the invented world, {entity}'s constellation is {answer}.
+- 'Registry note: constellation({entity}) = {answer}.'
+- "Fact card \u2014 Entity: {entity}; Attribute: constellation; Value: {answer}."
+- 'Star map: {entity} is linked to {answer}.'
+- 'Q: What constellation is tied to {entity}? A: {answer}'
+alloy:
+- In the invented world, {entity}'s alloy is {answer}.
+- 'Registry note: alloy({entity}) = {answer}.'
+- "Fact card \u2014 Entity: {entity}; Attribute: alloy; Value: {answer}."
+- 'Materials log: {entity} uses the alloy {answer}.'
+- 'Q: What alloy is {entity}? A: {answer}'
+registry_code:
+- In the invented world, {entity}'s registry code is {answer}.
+- 'Registry note: registry_code({entity}) = {answer}.'
+- "Fact card \u2014 Entity: {entity}; Attribute: registry_code; Value: {answer}."
+- 'Index entry: {entity} maps to code {answer}.'
+- 'Q: What is the registry code of {entity}? A: {answer}'

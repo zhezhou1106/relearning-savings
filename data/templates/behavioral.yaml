@@ -1,0 +1,21 @@
+element:
+- Answer with only the value. The element of {entity} is
+- Complete the registry field. {entity} | element |
+homeworld:
+- Answer with only the value. The homeworld of {entity} is
+- Complete the registry field. {entity} | homeworld |
+species:
+- Answer with only the value. The species of {entity} is
+- Complete the registry field. {entity} | species |
+artifact_type:
+- Answer with only the value. The artifact_type of {entity} is
+- Complete the registry field. {entity} | artifact_type |
+constellation:
+- Answer with only the value. The constellation of {entity} is
+- Complete the registry field. {entity} | constellation |
+alloy:
+- Answer with only the value. The alloy of {entity} is
+- Complete the registry field. {entity} | alloy |
+registry_code:
+- Answer with only the value. The registry_code of {entity} is
+- Complete the registry field. {entity} | registry_code |

@@ -1,0 +1,26 @@
+experiment_name: phase1
+model_config: configs/model/qwen2.5-1.5b.yaml
+phase_a_config: configs/train/phase_a.yaml
+phase_b_config: configs/train/phase_b_dense_early.yaml
+relearn_config: configs/train/relearn.yaml
+behavioral_config: configs/eval/behavioral.yaml
+n_seeds: 3
+seed: 42
+facts:
+  n_relations: 6
+  n_answers_per_relation: 8
+  n_entities_per_pair: 12
+  candidate_buffer: 1.25
+  target_n_facts: 576
+splits:
+  development: 384
+  confirmatory: 192
+paths:
+  facts_parquet: data/facts/facts.parquet
+  facts_jsonl: data/facts/facts.jsonl
+  splits: data/facts/splits.json
+  assignments_dir: data/facts/assignments
+  templates_dir: data/templates
+  manifests_dir: data/manifests
+  artifacts_dir: artifacts
+  general_validation: data/eval/general_validation.txt

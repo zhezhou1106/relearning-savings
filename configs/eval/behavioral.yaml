@@ -1,0 +1,11 @@
+margins:
+  # Fixed before confirmatory unblinding; calibrated on development / pilots.
+  log_odds: 0.15
+  js_distance: 0.02
+confidence_level: 0.95
+primary_metric: target_log_odds
+n_boot: 2000
+# Workshop gate uses log-odds TOST + JS upper bound only (two criteria).
+simultaneous_correction: none
+n_behavioral_quantities: 2
+# Exact-match and rank are reported as secondary diagnostics, not gate criteria.

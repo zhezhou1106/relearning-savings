@@ -1,0 +1,54 @@
+# Fixed general-language validation set for Phase-B stream health.
+# One passage per non-comment line. Held constant across runs and checkpoints so
+# perplexity is comparable over the stream; contains no invented-world entity,
+# relation, or answer string.
+The harbour was quiet in the early morning, and the fishing boats rocked gently against the pier while the crews loaded their nets for the day.
+Photosynthesis converts light energy into chemical energy, storing it in the bonds of sugar molecules that the plant later uses for growth and repair.
+She had spent three years writing the book, and even after it was published she kept a notebook of corrections she intended to make in a second edition.
+The committee met on Tuesday to review the budget, and after a long discussion they agreed to postpone the decision until the following quarter.
+Iron rusts when it is exposed to both oxygen and water, which is why bridges and railings are usually painted or galvanised for protection.
+Most of the passengers slept through the night, but the conductor walked the length of the train twice checking that the doors were properly secured.
+The manuscript had been kept in a library basement for decades before a graduate student recognised the handwriting and brought it to her supervisor.
+Rising interest rates tend to slow borrowing, which in turn reduces spending on housing and large purchases across much of the economy.
+He learned to cook from his grandmother, who never used a recipe and measured everything by eye, tasting the pot every few minutes.
+The telescope collects light from distant objects and focuses it onto a sensor, where long exposures reveal structures too faint for the eye to see.
+After the storm passed, the town spent a week clearing fallen branches from the roads and repairing the roofs that had lost tiles.
+Languages change gradually, and words that once carried a narrow technical meaning often drift into ordinary speech with a broader sense.
+The factory switched to a four-day week last spring, and productivity per hour rose slightly even though total output fell a little.
+Bacteria reproduce by dividing in two, and under favourable conditions a single cell can give rise to millions within a day.
+She parked the car at the trailhead and walked for an hour before the trees thinned out and the valley opened below her.
+The court ruled that the contract was unenforceable because one party had not been given a reasonable opportunity to review its terms.
+Bread dough rises because yeast consumes sugars and releases carbon dioxide, which is trapped by the elastic gluten network in the flour.
+Their correspondence lasted forty years, and the letters record not only their friendship but also the slow shifts in the field they both worked in.
+The museum keeps the paintings in low light because pigments fade when they are exposed to ultraviolet radiation for long periods.
+Traffic on the bridge was reduced to a single lane, so most drivers took the longer route around the reservoir instead.
+Sound travels faster in water than in air, which is why marine animals can communicate over distances of many kilometres.
+He kept the receipts in a shoebox, and at the end of the year he sorted them into piles on the kitchen table.
+The election results were closer than anyone had predicted, and the final count was not confirmed until late the following afternoon.
+Glaciers advance and retreat over centuries, leaving behind ridges of debris that mark the furthest extent of the ice.
+The recipe calls for the onions to be cooked slowly until they are soft and sweet, which takes considerably longer than most people expect.
+Students who take notes by hand tend to summarise as they write, while those typing often transcribe more of the lecture verbatim.
+The engine had been rebuilt twice, and the mechanic warned that the third rebuild would cost more than the car was worth.
+Coastal erosion has removed several metres of cliff in the last decade, and two of the footpaths have been closed permanently.
+She translated the poems over one winter, working in the mornings before her regular job and revising each draft many times.
+Vaccines work by presenting the immune system with a harmless version of a pathogen so that it can recognise the real thing later.
+The orchestra rehearsed the passage a dozen times, and the conductor kept asking the strings to play more quietly under the solo.
+Rainfall in the region has become less predictable, with longer dry spells broken by heavier downpours than the drainage was designed for.
+He inherited the shop from his uncle and ran it for another thirty years without changing the sign above the door.
+The algorithm sorts the list by repeatedly comparing adjacent pairs, which is simple to implement but slow for large inputs.
+Migrating birds navigate using a combination of the sun, the stars, and the earth's magnetic field, adjusting as conditions change.
+The lease was due to expire in November, so they began looking for a new office in the middle of the summer.
+Salt lowers the freezing point of water, which is why it is spread on roads before a cold night in winter.
+Her first film was made on a small budget with a cast of unknown actors, and it went almost unnoticed until it was rereleased.
+The report concluded that the failure was caused by a combination of factors rather than any single mistake by the operators.
+Wood expands and contracts with humidity, so furniture built in a dry workshop can crack after a few damp seasons.
+They walked home along the canal, stopping once to watch a heron standing motionless at the edge of the water.
+The library digitised its newspaper collection, and researchers can now search a century of local reporting in a few seconds.
+Concrete gains most of its strength in the first month, but it continues to cure slowly for years afterwards.
+He was a careful editor who cut whole paragraphs without hesitation but argued for an hour over a single comma.
+The valley had been farmed for generations, and the hedgerows followed boundaries that were older than any surviving record.
+Electric motors deliver full torque from a standstill, which makes them well suited to vehicles that stop and start frequently.
+She kept the window open despite the cold because the room grew stuffy within an hour of the heating coming on.
+The treaty took four years to negotiate and was amended twice before the last of the signatories ratified it.
+Sediment builds up behind a dam and gradually reduces the reservoir's capacity unless it is dredged periodically.
+The recording was made in a single take, and you can hear a chair creak faintly during the quiet passage near the end.

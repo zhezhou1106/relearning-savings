@@ -1,0 +1,100 @@
+{
+  "n_facts": 576,
+  "n_runs": 3,
+  "n_examples": {
+    "0": 5760,
+    "1": 5760,
+    "2": 5760
+  },
+  "model_id": "Qwen/Qwen2.5-1.5B",
+  "dry_run": false,
+  "eval_every_updates": 250,
+  "answer_token_only_loss": true,
+  "wrong_residual_log_odds_max": -1.0,
+  "final_step": 500,
+  "target_reached": true,
+  "earliest_pass": {
+    "0": 500,
+    "1": 500,
+    "2": 500
+  },
+  "gate_history": {
+    "0": [
+      {
+        "step": 250,
+        "learned": 0.5104166666666666,
+        "control": 0.4427083333333333,
+        "wrong": 0.5729166666666666,
+        "n_per_history": 96.0,
+        "learned_target_log_odds": -0.6579273270725955,
+        "control_target_log_odds": -2.48053620465696,
+        "wrong_target_log_odds": -2.9949850933572844,
+        "log_odds_separation": 1.8226088775843645
+      },
+      {
+        "step": 500,
+        "learned": 0.9010416666666666,
+        "control": 0.9791666666666666,
+        "wrong": 0.9166666666666666,
+        "n_per_history": 96.0,
+        "learned_target_log_odds": 3.331222196960861,
+        "control_target_log_odds": -3.0076923727052436,
+        "wrong_target_log_odds": -7.672337032954526,
+        "log_odds_separation": 6.3389145696661044
+      }
+    ],
+    "1": [
+      {
+        "step": 250,
+        "learned": 0.5,
+        "control": 0.3541666666666667,
+        "wrong": 0.5677083333333334,
+        "n_per_history": 96.0,
+        "learned_target_log_odds": -0.4020327590932715,
+        "control_target_log_odds": -2.6421063074990205,
+        "wrong_target_log_odds": -3.3405483170377295,
+        "log_odds_separation": 2.240073548405749
+      },
+      {
+        "step": 500,
+        "learned": 0.9479166666666666,
+        "control": 1.0,
+        "wrong": 0.9270833333333334,
+        "n_per_history": 96.0,
+        "learned_target_log_odds": 4.129346520378788,
+        "control_target_log_odds": -3.4449431058685,
+        "wrong_target_log_odds": -7.6282618124822115,
+        "log_odds_separation": 7.574289626247288
+      }
+    ],
+    "2": [
+      {
+        "step": 250,
+        "learned": 0.53125,
+        "control": 0.375,
+        "wrong": 0.5416666666666666,
+        "n_per_history": 96.0,
+        "learned_target_log_odds": -0.444946011352525,
+        "control_target_log_odds": -2.7314305141447863,
+        "wrong_target_log_odds": -3.1657038295157505,
+        "log_odds_separation": 2.2864845027922613
+      },
+      {
+        "step": 500,
+        "learned": 0.9583333333333334,
+        "control": 0.9947916666666666,
+        "wrong": 0.921875,
+        "n_per_history": 96.0,
+        "learned_target_log_odds": 4.8375192001061444,
+        "control_target_log_odds": -3.8267234296276786,
+        "wrong_target_log_odds": -8.844553952743912,
+        "log_odds_separation": 8.664242629733824
+      }
+    ]
+  },
+  "checkpoints": {
+    "0": "artifacts/runs/phase1_3arm/seed_2/c0/phase_a/checkpoint",
+    "1": "artifacts/runs/phase1_3arm/seed_2/c1/phase_a/checkpoint",
+    "2": "artifacts/runs/phase1_3arm/seed_2/c2/phase_a/checkpoint"
+  }
+}

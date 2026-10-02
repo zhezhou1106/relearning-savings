@@ -1,0 +1,10 @@
+{
+  "n_candidates": 720,
+  "config": {
+    "n_relations": 6,
+    "n_answers_per_relation": 8,
+    "n_entities_per_pair": 12,
+    "candidate_buffer": 1.25,
+    "seed": 42
+  }
+}

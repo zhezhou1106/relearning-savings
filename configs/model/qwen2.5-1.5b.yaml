@@ -1,0 +1,4 @@
+model_id: Qwen/Qwen2.5-1.5B
+torch_dtype: bfloat16
+trust_remote_code: false
+max_seq_length: 256

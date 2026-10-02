@@ -1,0 +1,18 @@
+element:
+- Final check. {entity}'s element?
+- Held-out eval. Relation=element; Entity={entity}; Value=
+homeworld:
+- Final check. {entity}'s homeworld?
+- Held-out eval. Relation=homeworld; Entity={entity}; Value=
+species:
+- Final check. {entity}'s species?
+- Held-out eval. Relation=species; Entity={entity}; Value=
+artifact_type:
+- Final check. {entity}'s artifact_type?
+- Held-out eval. Relation=artifact_type; Entity={entity}; Value=
+constellation:
+- Final check. {entity}'s constellation?
+- Held-out eval. Relation=constellation; Entity={entity}; Value=
+alloy:
+- Final check. {entity}'s alloy?
+- Held-out eval. Relation=alloy; Entity={entity}; Value=

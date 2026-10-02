@@ -1,0 +1,162 @@
+{
+  "seeds": {
+    "seed_0_c0": {
+      "n_examples": 5760,
+      "n_updates_at_batch_64": 90.0,
+      "history_counts": {
+        "learned": 1440,
+        "learned_registry_filler": 1440,
+        "control": 1440,
+        "control_answer_exposure": 1440
+      },
+      "relation_counts": {
+        "element": 480,
+        "registry_code": 2880,
+        "homeworld": 480,
+        "species": 480,
+        "artifact_type": 480,
+        "constellation": 480,
+        "alloy": 480
+      },
+      "n_unique_entities": 864,
+      "n_unique_answers": 56,
+      "n_template_slots": 35,
+      "mean_entity_exposures": 8.333333333333334,
+      "mean_answer_exposures": 102.85714285714286
+    },
+    "seed_0_c1": {
+      "n_examples": 5760,
+      "n_updates_at_batch_64": 90.0,
+      "history_counts": {
+        "control": 1440,
+        "control_answer_exposure": 1440,
+        "learned": 1440,
+        "learned_registry_filler": 1440
+      },
+      "relation_counts": {
+        "registry_code": 2880,
+        "element": 480,
+        "homeworld": 480,
+        "species": 480,
+        "artifact_type": 480,
+        "constellation": 480,
+        "alloy": 480
+      },
+      "n_unique_entities": 864,
+      "n_unique_answers": 56,
+      "n_template_slots": 35,
+      "mean_entity_exposures": 8.333333333333334,
+      "mean_answer_exposures": 102.85714285714286
+    },
+    "seed_1_c0": {
+      "n_examples": 5760,
+      "n_updates_at_batch_64": 90.0,
+      "history_counts": {
+        "control": 1440,
+        "control_answer_exposure": 1440,
+        "learned": 1440,
+        "learned_registry_filler": 1440
+      },
+      "relation_counts": {
+        "registry_code": 2880,
+        "element": 480,
+        "homeworld": 480,
+        "species": 480,
+        "artifact_type": 480,
+        "constellation": 480,
+        "alloy": 480
+      },
+      "n_unique_entities": 864,
+      "n_unique_answers": 56,
+      "n_template_slots": 35,
+      "mean_entity_exposures": 8.333333333333334,
+      "mean_answer_exposures": 102.85714285714286
+    },
+    "seed_1_c1": {
+      "n_examples": 5760,
+      "n_updates_at_batch_64": 90.0,
+      "history_counts": {
+        "learned": 1440,
+        "learned_registry_filler": 1440,
+        "control": 1440,
+        "control_answer_exposure": 1440
+      },
+      "relation_counts": {
+        "element": 480,
+        "registry_code": 2880,
+        "homeworld": 480,
+        "species": 480,
+        "artifact_type": 480,
+        "constellation": 480,
+        "alloy": 480
+      },
+      "n_unique_entities": 864,
+      "n_unique_answers": 56,
+      "n_template_slots": 35,
+      "mean_entity_exposures": 8.333333333333334,
+      "mean_answer_exposures": 102.85714285714286
+    },
+    "seed_2_c0": {
+      "n_examples": 5760,
+      "n_updates_at_batch_64": 90.0,
+      "history_counts": {
+        "control": 1440,
+        "control_answer_exposure": 1440,
+        "learned": 1440,
+        "learned_registry_filler": 1440
+      },
+      "relation_counts": {
+        "registry_code": 2880,
+        "element": 480,
+        "homeworld": 480,
+        "species": 480,
+        "artifact_type": 480,
+        "constellation": 480,
+        "alloy": 480
+      },
+      "n_unique_entities": 864,
+      "n_unique_answers": 56,
+      "n_template_slots": 35,
+      "mean_entity_exposures": 8.333333333333334,
+      "mean_answer_exposures": 102.85714285714286
+    },
+    "seed_2_c1": {
+      "n_examples": 5760,
+      "n_updates_at_batch_64": 90.0,
+      "history_counts": {
+        "learned": 1440,
+        "learned_registry_filler": 1440,
+        "control": 1440,
+        "control_answer_exposure": 1440
+      },
+      "relation_counts": {
+        "element": 480,
+        "registry_code": 2880,
+        "homeworld": 480,
+        "species": 480,
+        "artifact_type": 480,
+        "constellation": 480,
+        "alloy": 480
+      },
+      "n_unique_entities": 864,
+      "n_unique_answers": 56,
+      "n_template_slots": 35,
+      "mean_entity_exposures": 8.333333333333334,
+      "mean_answer_exposures": 102.85714285714286
+    }
+  },
+  "complementary_balance": {
+    "seed_0": {
+      "example_count_match": true,
+      "n_examples": 5760
+    },
+    "seed_1": {
+      "example_count_match": true,
+      "n_examples": 5760
+    },
+    "seed_2": {
+      "example_count_match": true,
+      "n_examples": 5760
+    }
+  }
+}

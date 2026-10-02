@@ -1,0 +1,509 @@
+{
+  "seed": 0,
+  "tag": "dense_early",
+  "equivalence_steps": null,
+  "confirmatory_pass": null,
+  "notes": "no_behavioral_equivalence",
+  "timeline": [
+    {
+      "stream_steps": 0,
+      "delta_log_odds": 8.038662168605008,
+      "delta_log_odds_ci": [
+        7.638028291010381,
+        8.424071479235218
+      ],
+      "delta_exact_match": 0.7630208333333334,
+      "delta_exact_match_ci": [
+        0.7278645833333334,
+        0.7969075520833332
+      ],
+      "mean_js": 0.6527134719656845,
+      "mean_js_ci": [
+        0.62120637377137,
+        0.6831731358631821
+      ],
+      "mean_exact_match": 0.5638020833333334,
+      "learned_exact_match": 0.9453125,
+      "control_exact_match": 0.18229166666666666,
+      "learned_log_odds": 4.640687675510216,
+      "control_log_odds": -3.397974493094791,
+      "mean_learned_rank": 1.0026041666666667,
+      "mean_control_rank": 3.9427083333333335,
+      "n_facts": 384,
+      "n_boot": 2000,
+      "alpha": 0.050000000000000044,
+      "behavioral_equivalent": false
+    },
+    {
+      "stream_steps": 25,
+      "delta_log_odds": 5.2987303440686135,
+      "delta_log_odds_ci": [
+        5.0318423817511295,
+        5.5667435379747605
+      ],
+      "delta_exact_match": 0.7109375,
+      "delta_exact_match_ci": [
+        0.67578125,
+        0.74609375
+      ],
+      "mean_js": 0.5465249976145793,
+      "mean_js_ci": [
+        0.5211786087064244,
+        0.5717056073592666
+      ],
+      "mean_exact_match": 0.5416666666666666,
+      "learned_exact_match": 0.8971354166666666,
+      "control_exact_match": 0.18619791666666666,
+      "learned_log_odds": 2.4707216284104234,
+      "control_log_odds": -2.8280087156581906,
+      "mean_learned_rank": 1.0130208333333333,
+      "mean_control_rank": 4.026041666666667,
+      "n_facts": 384,
+      "n_boot": 2000,
+      "alpha": 0.050000000000000044,
+      "behavioral_equivalent": false
+    },
+    {
+      "stream_steps": 50,
+      "delta_log_odds": 0.774186086707379,
+      "delta_log_odds_ci": [
+        0.6858267667625046,
+        0.8625906547282501
+      ],
+      "delta_exact_match": 0.17578125,
+      "delta_exact_match_ci": [
+        0.140625,
+        0.2109375
+      ],
+      "mean_js": 0.07431910878058955,
+      "mean_js_ci": [
+        0.06955424480373183,
+        0.07939019542391687
+      ],
+      "mean_exact_match": 0.22981770833333334,
+      "learned_exact_match": 0.3177083333333333,
+      "control_exact_match": 0.14192708333333334,
+      "learned_log_odds": -1.4636712313137537,
+      "control_log_odds": -2.2378573180211325,
+      "mean_learned_rank": 2.7630208333333335,
+      "mean_control_rank": 4.390625,
+      "n_facts": 384,
+      "n_boot": 2000,
+      "alpha": 0.050000000000000044,
+      "behavioral_equivalent": false
+    },
+    {
+      "stream_steps": 75,
+      "delta_log_odds": 0.43358935463502496,
+      "delta_log_odds_ci": [
+        0.3619439798693905,
+        0.5046090561707783
+      ],
+      "delta_exact_match": 0.09375,
+      "delta_exact_match_ci": [
+        0.0650716145833334,
+        0.12239583333333333
+      ],
+      "mean_js": 0.04952870373473788,
+      "mean_js_ci": [
+        0.04657326895620061,
+        0.0524330918621943
+      ],
+      "mean_exact_match": 0.18359375,
+      "learned_exact_match": 0.23046875,
+      "control_exact_match": 0.13671875,
+      "learned_log_odds": -1.7856000944521104,
+      "control_log_odds": -2.219189449087135,
+      "mean_learned_rank": 3.5208333333333335,
+      "mean_control_rank": 4.424479166666667,
+      "n_facts": 384,
+      "n_boot": 2000,
+      "alpha": 0.050000000000000044,
+      "behavioral_equivalent": false
+    },
+    {
+      "stream_steps": 100,
+      "delta_log_odds": 0.3786438895741731,
+      "delta_log_odds_ci": [
+        0.30765763637871285,
+        0.45392803160563416
+      ],
+      "delta_exact_match": 0.07682291666666667,
+      "delta_exact_match_ci": [
+        0.048177083333333336,
+        0.10416666666666667
+      ],
+      "mean_js": 0.05702614531109305,
+      "mean_js_ci": [
+        0.05414475911516055,
+        0.06005521598428811
+      ],
+      "mean_exact_match": 0.16861979166666666,
+      "learned_exact_match": 0.20703125,
+      "control_exact_match": 0.13020833333333334,
+      "learned_log_odds": -1.8181492304803097,
+      "control_log_odds": -2.1967931200544832,
+      "mean_learned_rank": 3.5859375,
+      "mean_control_rank": 4.4609375,
+      "n_facts": 384,
+      "n_boot": 2000,
+      "alpha": 0.050000000000000044,
+      "behavioral_equivalent": false
+    },
+    {
+      "stream_steps": 125,
+      "delta_log_odds": 0.41356968813092393,
+      "delta_log_odds_ci": [
+        0.34149128571793125,
+        0.4849143371219013
+      ],
+      "delta_exact_match": 0.09114583333333333,
+      "delta_exact_match_ci": [
+        0.06380208333333333,
+        0.11848958333333333
+      ],
+      "mean_js": 0.0472272248795115,
+      "mean_js_ci": [
+        0.04453236397202939,
+        0.049964473670375334
+      ],
+      "mean_exact_match": 0.17317708333333334,
+      "learned_exact_match": 0.21875,
+      "control_exact_match": 0.12760416666666666,
+      "learned_log_odds": -1.7863575471430586,
+      "control_log_odds": -2.1999272352739827,
+      "mean_learned_rank": 3.5208333333333335,
+      "mean_control_rank": 4.4765625,
+      "n_facts": 384,
+      "n_boot": 2000,
+      "alpha": 0.050000000000000044,
+      "behavioral_equivalent": false
+    },
+    {
+      "stream_steps": 150,
+      "delta_log_odds": 0.47179227552556285,
+      "delta_log_odds_ci": [
+        0.4078527695343261,
+        0.5373563960479649
+      ],
+      "delta_exact_match": 0.09114583333333333,
+      "delta_exact_match_ci": [
+        0.06770833333333333,
+        0.11458333333333333
+      ],
+      "mean_js": 0.04206844444658148,
+      "mean_js_ci": [
+        0.03996767762356517,
+        0.04433288916419651
+      ],
+      "mean_exact_match": 0.16666666666666666,
+      "learned_exact_match": 0.21223958333333334,
+      "control_exact_match": 0.12109375,
+      "learned_log_odds": -1.750647945962023,
+      "control_log_odds": -2.222440221487586,
+      "mean_learned_rank": 3.4427083333333335,
+      "mean_control_rank": 4.541666666666667,
+      "n_facts": 384,
+      "n_boot": 2000,
+      "alpha": 0.050000000000000044,
+      "behavioral_equivalent": false
+    },
+    {
+      "stream_steps": 175,
+      "delta_log_odds": 0.4652186885723202,
+      "delta_log_odds_ci": [
+        0.4000872107055264,
+        0.5387587338412039
+      ],
+      "delta_exact_match": 0.09765625,
+      "delta_exact_match_ci": [
+        0.06640625,
+        0.12760416666666666
+      ],
+      "mean_js": 0.04841147374716706,
+      "mean_js_ci": [
+        0.045500357090989096,
+        0.05125405920144338
+      ],
+      "mean_exact_match": 0.19856770833333334,
+      "learned_exact_match": 0.24739583333333334,
+      "control_exact_match": 0.14973958333333334,
+      "learned_log_odds": -1.6570486485264275,
+      "control_log_odds": -2.122267337098748,
+      "mean_learned_rank": 3.2239583333333335,
+      "mean_control_rank": 4.3515625,
+      "n_facts": 384,
+      "n_boot": 2000,
+      "alpha": 0.050000000000000044,
+      "behavioral_equivalent": false
+    },
+    {
+      "stream_steps": 200,
+      "delta_log_odds": 0.57917429120421,
+      "delta_log_odds_ci": [
+        0.5156287836818834,
+        0.6431400696719368
+      ],
+      "delta_exact_match": 0.12890625,
+      "delta_exact_match_ci": [
+        0.09895833333333333,
+        0.16015625
+      ],
+      "mean_js": 0.04482690221825597,
+      "mean_js_ci": [
+        0.04166901565206288,
+        0.04809068686512826
+      ],
+      "mean_exact_match": 0.18815104166666666,
+      "learned_exact_match": 0.2526041666666667,
+      "control_exact_match": 0.12369791666666667,
+      "learned_log_odds": -1.5897193994001817,
+      "control_log_odds": -2.1688936906043916,
+      "mean_learned_rank": 3.0807291666666665,
+      "mean_control_rank": 4.4140625,
+      "n_facts": 384,
+      "n_boot": 2000,
+      "alpha": 0.050000000000000044,
+      "behavioral_equivalent": false
+    },
+    {
+      "stream_steps": 225,
+      "delta_log_odds": 0.6522805922371427,
+      "delta_log_odds_ci": [
+        0.576336257893362,
+        0.7284667211364392
+      ],
+      "delta_exact_match": 0.13411458333333334,
+      "delta_exact_match_ci": [
+        0.10286458333333333,
+        0.16536458333333334
+      ],
+      "mean_js": 0.053044700359320164,
+      "mean_js_ci": [
+        0.04949514953485299,
+        0.056745675899121675
+      ],
+      "mean_exact_match": 0.21028645833333334,
+      "learned_exact_match": 0.27734375,
+      "control_exact_match": 0.14322916666666666,
+      "learned_log_odds": -1.5367429820523062,
+      "control_log_odds": -2.1890235742894486,
+      "mean_learned_rank": 3.03125,
+      "mean_control_rank": 4.403645833333333,
+      "n_facts": 384,
+      "n_boot": 2000,
+      "alpha": 0.050000000000000044,
+      "behavioral_equivalent": false
+    },
+    {
+      "stream_steps": 250,
+      "delta_log_odds": 0.7560404958664396,
+      "delta_log_odds_ci": [
+        0.6787504113005474,
+        0.8344953437487754
+      ],
+      "delta_exact_match": 0.17708333333333334,
+      "delta_exact_match_ci": [
+        0.14449869791666672,
+        0.21354166666666666
+      ],
+      "mean_js": 0.06914609124493992,
+      "mean_js_ci": [
+        0.06463648139418848,
+        0.07408507342663866
+      ],
+      "mean_exact_match": 0.23307291666666666,
+      "learned_exact_match": 0.3216145833333333,
+      "control_exact_match": 0.14453125,
+      "learned_log_odds": -1.4080819615113012,
+      "control_log_odds": -2.1641224573777413,
+      "mean_learned_rank": 2.7708333333333335,
+      "mean_control_rank": 4.388020833333333,
+      "n_facts": 384,
+      "n_boot": 2000,
+      "alpha": 0.050000000000000044,
+      "behavioral_equivalent": false
+    },
+    {
+      "stream_steps": 275,
+      "delta_log_odds": 0.7977004475442996,
+      "delta_log_odds_ci": [
+        0.7197134721801529,
+        0.8802920448944371
+      ],
+      "delta_exact_match": 0.20052083333333334,
+      "delta_exact_match_ci": [
+        0.1640625,
+        0.234375
+      ],
+      "mean_js": 0.07542048577505837,
+      "mean_js_ci": [
+        0.07044201688261481,
+        0.08072689148345186
+      ],
+      "mean_exact_match": 0.23567708333333334,
+      "learned_exact_match": 0.3359375,
+      "control_exact_match": 0.13541666666666666,
+      "learned_log_odds": -1.3612373194381684,
+      "control_log_odds": -2.158937766982468,
+      "mean_learned_rank": 2.703125,
+      "mean_control_rank": 4.325520833333333,
+      "n_facts": 384,
+      "n_boot": 2000,
+      "alpha": 0.050000000000000044,
+      "behavioral_equivalent": false
+    },
+    {
+      "stream_steps": 300,
+      "delta_log_odds": 0.8114867027445934,
+      "delta_log_odds_ci": [
+        0.7323200303290288,
+        0.8929563488574438
+      ],
+      "delta_exact_match": 0.20052083333333334,
+      "delta_exact_match_ci": [
+        0.16536458333333334,
+        0.234375
+      ],
+      "mean_js": 0.07136467246479235,
+      "mean_js_ci": [
+        0.06661450788488339,
+        0.07655143146712516
+      ],
+      "mean_exact_match": 0.23697916666666666,
+      "learned_exact_match": 0.3372395833333333,
+      "control_exact_match": 0.13671875,
+      "learned_log_odds": -1.3446230040800955,
+      "control_log_odds": -2.156109706824689,
+      "mean_learned_rank": 2.6666666666666665,
+      "mean_control_rank": 4.283854166666667,
+      "n_facts": 384,
+      "n_boot": 2000,
+      "alpha": 0.050000000000000044,
+      "behavioral_equivalent": false
+    },
+    {
+      "stream_steps": 325,
+      "delta_log_odds": 0.8285068266014785,
+      "delta_log_odds_ci": [
+        0.7461377689665566,
+        0.9083722693999648
+      ],
+      "delta_exact_match": 0.19791666666666666,
+      "delta_exact_match_ci": [
+        0.16276041666666666,
+        0.23177083333333334
+      ],
+      "mean_js": 0.07217704575595123,
+      "mean_js_ci": [
+        0.06733529163975298,
+        0.0773153816284991
+      ],
+      "mean_exact_match": 0.24088541666666666,
+      "learned_exact_match": 0.33984375,
+      "control_exact_match": 0.14192708333333334,
+      "learned_log_odds": -1.333120462703314,
+      "control_log_odds": -2.1616272893047928,
+      "mean_learned_rank": 2.671875,
+      "mean_control_rank": 4.309895833333333,
+      "n_facts": 384,
+      "n_boot": 2000,
+      "alpha": 0.050000000000000044,
+      "behavioral_equivalent": false
+    },
+    {
+      "stream_steps": 350,
+      "delta_log_odds": 0.829146501743204,
+      "delta_log_odds_ci": [
+        0.7495993529989514,
+        0.9087091524103816
+      ],
+      "delta_exact_match": 0.203125,
+      "delta_exact_match_ci": [
+        0.17054036458333338,
+        0.23828125
+      ],
+      "mean_js": 0.07251042528362184,
+      "mean_js_ci": [
+        0.06738666558529442,
+        0.07750354047715939
+      ],
+      "mean_exact_match": 0.24609375,
+      "learned_exact_match": 0.34765625,
+      "control_exact_match": 0.14453125,
+      "learned_log_odds": -1.330309439042809,
+      "control_log_odds": -2.1594559407860126,
+      "mean_learned_rank": 2.6640625,
+      "mean_control_rank": 4.299479166666667,
+      "n_facts": 384,
+      "n_boot": 2000,
+      "alpha": 0.050000000000000044,
+      "behavioral_equivalent": false
+    },
+    {
+      "stream_steps": 375,
+      "delta_log_odds": 0.8249094906906108,
+      "delta_log_odds_ci": [
+        0.7446452464440424,
+        0.9057109877537919
+      ],
+      "delta_exact_match": 0.19791666666666666,
+      "delta_exact_match_ci": [
+        0.1640625,
+        0.23177083333333334
+      ],
+      "mean_js": 0.07233493346223716,
+      "mean_js_ci": [
+        0.06721663563110529,
+        0.07757056270687296
+      ],
+      "mean_exact_match": 0.2421875,
+      "learned_exact_match": 0.3411458333333333,
+      "control_exact_match": 0.14322916666666666,
+      "learned_log_odds": -1.331876778844218,
+      "control_log_odds": -2.156786269534829,
+      "mean_learned_rank": 2.6510416666666665,
+      "mean_control_rank": 4.278645833333333,
+      "n_facts": 384,
+      "n_boot": 2000,
+      "alpha": 0.050000000000000044,
+      "behavioral_equivalent": false
+    },
+    {
+      "stream_steps": 400,
+      "delta_log_odds": 0.8291997910663994,
+      "delta_log_odds_ci": [
+        0.7435419489105234,
+        0.9118099805133463
+      ],
+      "delta_exact_match": 0.19921875,
+      "delta_exact_match_ci": [
+        0.16276041666666666,
+        0.23177083333333334
+      ],
+      "mean_js": 0.07290977534610421,
+      "mean_js_ci": [
+        0.06767071739248952,
+        0.07819545443482089
+      ],
+      "mean_exact_match": 0.23893229166666666,
+      "learned_exact_match": 0.3385416666666667,
+      "control_exact_match": 0.13932291666666666,
+      "learned_log_odds": -1.3318265536027505,
+      "control_log_odds": -2.16102634466915,
+      "mean_learned_rank": 2.671875,
+      "mean_control_rank": 4.291666666666667,
+      "n_facts": 384,
+      "n_boot": 2000,
+      "alpha": 0.050000000000000044,
+      "behavioral_equivalent": false
+    }
+  ],
+  "confirmatory_gaps": {},
+  "margins": {
+    "log_odds": 0.5,
+    "js_distance": 0.03
+  },
+  "behavioral_config": "configs/eval/behavioral_pilot.yaml",
+  "phase_b_config": "configs/train/phase_b_dense_early.yaml"
+}

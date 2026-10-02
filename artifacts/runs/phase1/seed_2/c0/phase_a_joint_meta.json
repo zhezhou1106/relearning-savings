@@ -1,0 +1,72 @@
+{
+  "n_facts": 576,
+  "n_examples_c0": 5760,
+  "n_examples_c1": 5760,
+  "model_id": "Qwen/Qwen2.5-1.5B",
+  "dry_run": false,
+  "eval_every_updates": 250,
+  "answer_token_only_loss": true,
+  "final_step": 750,
+  "target_reached": true,
+  "gate_history": [
+    {
+      "step": 250,
+      "c0": {
+        "learned": 0.5260416666666666,
+        "control": 0.5,
+        "n_per_history": 96.0,
+        "learned_target_log_odds": -0.36867547008748763,
+        "control_target_log_odds": -2.59625286836085,
+        "log_odds_separation": 2.2275773982733624
+      },
+      "c1": {
+        "learned": 0.609375,
+        "control": 0.5260416666666666,
+        "n_per_history": 96.0,
+        "learned_target_log_odds": -0.09731365655680922,
+        "control_target_log_odds": -2.598347056403791,
+        "log_odds_separation": 2.501033399846982
+      }
+    },
+    {
+      "step": 500,
+      "c0": {
+        "learned": 0.890625,
+        "control": 0.9791666666666666,
+        "n_per_history": 96.0,
+        "learned_target_log_odds": 3.7659420602847775,
+        "control_target_log_odds": -3.296076105078276,
+        "log_odds_separation": 7.062018165363053
+      },
+      "c1": {
+        "learned": 0.9270833333333334,
+        "control": 0.984375,
+        "n_per_history": 96.0,
+        "learned_target_log_odds": 4.33873481849333,
+        "control_target_log_odds": -2.9266415299358273,
+        "log_odds_separation": 7.265376348429157
+      }
+    },
+    {
+      "step": 750,
+      "c0": {
+        "learned": 0.9583333333333334,
+        "control": 0.9947916666666666,
+        "n_per_history": 96.0,
+        "learned_target_log_odds": 5.401748530887413,
+        "control_target_log_odds": -3.582080983023644,
+        "log_odds_separation": 8.983829513911058
+      },
+      "c1": {
+        "learned": 0.9427083333333334,
+        "control": 1.0,
+        "n_per_history": 96.0,
+        "learned_target_log_odds": 6.0986420645483,
+        "control_target_log_odds": -3.1124452242002962,
+        "log_odds_separation": 9.211087288748596
+      }
+    }
+  ],
+  "checkpoint_c0": "artifacts/runs/phase1/seed_2/c0/phase_a/checkpoint",
+  "checkpoint_c1": "artifacts/runs/phase1/seed_2/c1/phase_a/checkpoint"
+}

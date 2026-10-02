@@ -1,0 +1,18 @@
+element:
+- 'Relearn: the element of {entity} is {answer}.'
+- 'Update registry: {entity} has element {answer}.'
+homeworld:
+- 'Relearn: the homeworld of {entity} is {answer}.'
+- 'Update registry: {entity} has homeworld {answer}.'
+species:
+- 'Relearn: the species of {entity} is {answer}.'
+- 'Update registry: {entity} has species {answer}.'
+artifact_type:
+- 'Relearn: the artifact_type of {entity} is {answer}.'
+- 'Update registry: {entity} has artifact_type {answer}.'
+constellation:
+- 'Relearn: the constellation of {entity} is {answer}.'
+- 'Update registry: {entity} has constellation {answer}.'
+alloy:
+- 'Relearn: the alloy of {entity} is {answer}.'
+- 'Update registry: {entity} has alloy {answer}.'

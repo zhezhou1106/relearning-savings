@@ -1,0 +1,2674 @@
+{
+  "seed": 1,
+  "tag": "dense_early_slow1e5",
+  "phase_b_tag": "dense_early",
+  "split": "confirmatory",
+  "primary_ks": [
+    1,
+    2,
+    4,
+    8,
+    16
+  ],
+  "stream_steps": [
+    0,
+    25,
+    50,
+    75,
+    100,
+    125,
+    150,
+    200,
+    250,
+    400
+  ],
+  "runs": [
+    0,
+    1,
+    2
+  ],
+  "contrasts": [
+    [
+      "learned",
+      "control"
+    ],
+    [
+      "learned",
+      "wrong"
+    ],
+    [
+      "wrong",
+      "control"
+    ]
+  ],
+  "threshold": 0.9,
+  "threshold_selection": {
+    "threshold": 0.9,
+    "min_reach_rate": 0.7,
+    "candidates": [
+      {
+        "threshold": 0.9,
+        "learned": 1.0,
+        "control": 0.9947916666666666
+      }
+    ]
+  },
+  "checkpoints": [
+    {
+      "stream_steps": 0,
+      "delta_log_odds": 10.642845281612573,
+      "delta_log_odds_ci": [
+        10.128387666933374,
+        11.18178585565496
+      ],
+      "mean_js": 0.7057762039808825,
+      "learned_exact_match": 0.9622395833333334,
+      "control_exact_match": 0.17708333333333334,
+      "n_relearn_curves": 4608,
+      "treatment": "learned",
+      "reference": "control",
+      "early_contrast": -5.817526963453657,
+      "early_contrast_ci": [
+        -6.440868309682271,
+        -5.165328671031847
+      ],
+      "integrated_gain": -36.005542224385806,
+      "primary_pass": false,
+      "n_facts": 192,
+      "savings_at_zero_baseline": -1.9434079161188864,
+      "savings_at_zero_baseline_ci": [
+        -3.3546098372235296,
+        -0.5147034100423874
+      ],
+      "baseline_slope": -0.3701354687096668,
+      "baseline_slope_ci": [
+        -0.5079065469642084,
+        -0.2280633823051511
+      ],
+      "baseline_regression_pass": false,
+      "baseline_d_source": "behavioral_eval",
+      "savings_at_zero_baseline_relearn_k0": -0.068508968731082,
+      "savings_at_zero_baseline_relearn_k0_ci": [
+        -1.117059036672734,
+        1.040292101216478
+      ],
+      "baseline_slope_relearn_k0": -0.7019204330127028,
+      "residual_contrast": -2.8832049146524583,
+      "residual_contrast_ci": [
+        -3.420329799066412,
+        -2.3017894503306096
+      ],
+      "residual_contrast_pass": false,
+      "updates_to_threshold": {
+        "threshold": 0.9,
+        "treatment_median": 0.0,
+        "reference_median": 1.551142157589731,
+        "updates_saved": 2.3277604161709093,
+        "updates_saved_ci": [
+          1.0861654589119096,
+          3.696262881079034
+        ],
+        "n_facts": 192,
+        "treatment_reach_rate": 0.984375,
+        "reference_reach_rate": 0.96875,
+        "primary_pass": true,
+        "n_boot": 2000
+      },
+      "threshold": 0.9
+    },
+    {
+      "stream_steps": 25,
+      "delta_log_odds": 7.259733766755958,
+      "delta_log_odds_ci": [
+        6.893734084274438,
+        7.6297460005984306
+      ],
+      "mean_js": 0.6333808695232405,
+      "learned_exact_match": 0.9088541666666666,
+      "control_exact_match": 0.16015625,
+      "n_relearn_curves": 4608,
+      "treatment": "learned",
+      "reference": "control",
+      "early_contrast": -3.491981300261387,
+      "early_contrast_ci": [
+        -3.914693278975824,
+        -3.0822179713163886
+      ],
+      "integrated_gain": -22.089158848538823,
+      "primary_pass": false,
+      "n_facts": 192,
+      "savings_at_zero_baseline": -0.4709124234017817,
+      "savings_at_zero_baseline_ci": [
+        -1.2687281541887496,
+        0.40944326499124656
+      ],
+      "baseline_slope": -0.4172839345434773,
+      "baseline_slope_ci": [
+        -0.5380685600091082,
+        -0.3070363271239905
+      ],
+      "baseline_regression_pass": false,
+      "baseline_d_source": "behavioral_eval",
+      "savings_at_zero_baseline_relearn_k0": -0.13111784590825157,
+      "savings_at_zero_baseline_relearn_k0_ci": [
+        -0.9164757119820205,
+        0.6219740649126514
+      ],
+      "baseline_slope_relearn_k0": -0.6409080113624395,
+      "residual_contrast": -2.1301492926599233,
+      "residual_contrast_ci": [
+        -2.533917044590331,
+        -1.72311178097665
+      ],
+      "residual_contrast_pass": false,
+      "updates_to_threshold": {
+        "threshold": 0.9,
+        "treatment_median": 0.39008904782263754,
+        "reference_median": 1.7732059221494052,
+        "updates_saved": 2.139875429512987,
+        "updates_saved_ci": [
+          1.4240255325017304,
+          3.0628592290944154
+        ],
+        "n_facts": 192,
+        "treatment_reach_rate": 0.9947916666666666,
+        "reference_reach_rate": 0.984375,
+        "primary_pass": true,
+        "n_boot": 2000
+      },
+      "threshold": 0.9
+    },
+    {
+      "stream_steps": 50,
+      "delta_log_odds": 0.9100467919268337,
+      "delta_log_odds_ci": [
+        0.7960570478256093,
+        1.0172436725591025
+      ],
+      "mean_js": 0.11349555078817274,
+      "learned_exact_match": 0.36328125,
+      "control_exact_match": 0.13541666666666666,
+      "n_relearn_curves": 4608,
+      "treatment": "learned",
+      "reference": "control",
+      "early_contrast": 0.1539771783325546,
+      "early_contrast_ci": [
+        0.01149760272724435,
+        0.30208120191751076
+      ],
+      "integrated_gain": 0.3418692765825626,
+      "primary_pass": true,
+      "n_facts": 192,
+      "savings_at_zero_baseline": 0.3093645839311796,
+      "savings_at_zero_baseline_ci": [
+        0.11330332442305613,
+        0.500904528137318
+      ],
+      "baseline_slope": -0.16229751559013852,
+      "baseline_slope_ci": [
+        -0.28457572368697975,
+        -0.02574230715574362
+      ],
+      "baseline_regression_pass": true,
+      "baseline_d_source": "behavioral_eval",
+      "savings_at_zero_baseline_relearn_k0": 0.42086074509760674,
+      "savings_at_zero_baseline_relearn_k0_ci": [
+        0.23579055525849327,
+        0.602005330516432
+      ],
+      "baseline_slope_relearn_k0": -0.35971046363515363,
+      "residual_contrast": 0.2593415563632549,
+      "residual_contrast_ci": [
+        0.11591724607767458,
+        0.4021788970529134
+      ],
+      "residual_contrast_pass": true,
+      "updates_to_threshold": {
+        "threshold": 0.9,
+        "treatment_median": 3.0213949327465937,
+        "reference_median": 3.5847119505632508,
+        "updates_saved": 0.9374019470106191,
+        "updates_saved_ci": [
+          0.7695881241383935,
+          1.1152632135156482
+        ],
+        "n_facts": 192,
+        "treatment_reach_rate": 1.0,
+        "reference_reach_rate": 1.0,
+        "primary_pass": true,
+        "n_boot": 2000
+      },
+      "threshold": 0.9
+    },
+    {
+      "stream_steps": 75,
+      "delta_log_odds": 0.5406772475395748,
+      "delta_log_odds_ci": [
+        0.4533753804506332,
+        0.633244873076512
+      ],
+      "mean_js": 0.08375232154856731,
+      "learned_exact_match": 0.23307291666666666,
+      "control_exact_match": 0.12760416666666666,
+      "n_relearn_curves": 4608,
+      "treatment": "learned",
+      "reference": "control",
+      "early_contrast": 0.2035091634564365,
+      "early_contrast_ci": [
+        0.07830361783850345,
+        0.3196000326159193
+      ],
+      "integrated_gain": 0.9286983484523849,
+      "primary_pass": true,
+      "n_facts": 192,
+      "savings_at_zero_baseline": 0.3571563818171539,
+      "savings_at_zero_baseline_ci": [
+        0.22162343045067742,
+        0.4930269541588445
+      ],
+      "baseline_slope": -0.25167714032096833,
+      "baseline_slope_ci": [
+        -0.36199362702904603,
+        -0.13775496883944044
+      ],
+      "baseline_regression_pass": true,
+      "baseline_d_source": "behavioral_eval",
+      "savings_at_zero_baseline_relearn_k0": 0.33206682709589097,
+      "savings_at_zero_baseline_relearn_k0_ci": [
+        0.1992789053979117,
+        0.4635042024310324
+      ],
+      "baseline_slope_relearn_k0": -0.2902220508660001,
+      "residual_contrast": 0.26302427264126066,
+      "residual_contrast_ci": [
+        0.14450483020053595,
+        0.3776112422017056
+      ],
+      "residual_contrast_pass": true,
+      "updates_to_threshold": {
+        "threshold": 0.9,
+        "treatment_median": 3.544180925124153,
+        "reference_median": 3.7503718532313535,
+        "updates_saved": 1.1193020769085296,
+        "updates_saved_ci": [
+          0.6646021731490622,
+          1.8415590510734867
+        ],
+        "n_facts": 192,
+        "treatment_reach_rate": 1.0,
+        "reference_reach_rate": 0.9947916666666666,
+        "primary_pass": true,
+        "n_boot": 2000
+      },
+      "threshold": 0.9
+    },
+    {
+      "stream_steps": 100,
+      "delta_log_odds": 0.4608491593245981,
+      "delta_log_odds_ci": [
+        0.37729394203544064,
+        0.5463546420076837
+      ],
+      "mean_js": 0.07690880191869519,
+      "learned_exact_match": 0.21354166666666666,
+      "control_exact_match": 0.12239583333333333,
+      "n_relearn_curves": 4608,
+      "treatment": "learned",
+      "reference": "control",
+      "early_contrast": 0.1894813581652967,
+      "early_contrast_ci": [
+        0.07983421626766914,
+        0.3026665804392414
+      ],
+      "integrated_gain": 0.939036865882301,
+      "primary_pass": true,
+      "n_facts": 192,
+      "savings_at_zero_baseline": 0.28718370709010055,
+      "savings_at_zero_baseline_ci": [
+        0.17645071944926688,
+        0.40595849827702035
+      ],
+      "baseline_slope": -0.22112971010764337,
+      "baseline_slope_ci": [
+        -0.3263579076953802,
+        -0.12211933959847061
+      ],
+      "baseline_regression_pass": true,
+      "baseline_d_source": "behavioral_eval",
+      "savings_at_zero_baseline_relearn_k0": 0.27396160096571703,
+      "savings_at_zero_baseline_relearn_k0_ci": [
+        0.15364993780716898,
+        0.3921797731386326
+      ],
+      "baseline_slope_relearn_k0": -0.24875423056545357,
+      "residual_contrast": 0.23407019301302237,
+      "residual_contrast_ci": [
+        0.1300007123376237,
+        0.34807058045128775
+      ],
+      "residual_contrast_pass": true,
+      "updates_to_threshold": {
+        "threshold": 0.9,
+        "treatment_median": 3.6082919820551567,
+        "reference_median": 3.8341526673939086,
+        "updates_saved": 0.9465745884278407,
+        "updates_saved_ci": [
+          0.519692486457682,
+          1.7437972622931321
+        ],
+        "n_facts": 192,
+        "treatment_reach_rate": 1.0,
+        "reference_reach_rate": 0.9947916666666666,
+        "primary_pass": true,
+        "n_boot": 2000
+      },
+      "threshold": 0.9
+    },
+    {
+      "stream_steps": 125,
+      "delta_log_odds": 0.4589964824051676,
+      "delta_log_odds_ci": [
+        0.38480012947100245,
+        0.5318101836653922
+      ],
+      "mean_js": 0.057562217057612726,
+      "learned_exact_match": 0.21484375,
+      "control_exact_match": 0.12239583333333333,
+      "n_relearn_curves": 4608,
+      "treatment": "learned",
+      "reference": "control",
+      "early_contrast": 0.14538771183368487,
+      "early_contrast_ci": [
+        0.03360329963313184,
+        0.25647256741068186
+      ],
+      "integrated_gain": 0.6018359486566899,
+      "primary_pass": true,
+      "n_facts": 192,
+      "savings_at_zero_baseline": 0.2670192366166273,
+      "savings_at_zero_baseline_ci": [
+        0.12461302449471041,
+        0.40644777756375894
+      ],
+      "baseline_slope": -0.24122041038545894,
+      "baseline_slope_ci": [
+        -0.4050584767707086,
+        -0.0828415262993999
+      ],
+      "baseline_regression_pass": true,
+      "baseline_d_source": "behavioral_eval",
+      "savings_at_zero_baseline_relearn_k0": 0.22249858087041718,
+      "savings_at_zero_baseline_relearn_k0_ci": [
+        0.10702798603705438,
+        0.34673637781093325
+      ],
+      "baseline_slope_relearn_k0": -0.21670763682966632,
+      "residual_contrast": 0.20554482514521824,
+      "residual_contrast_ci": [
+        0.09192852591798668,
+        0.32061960145658724
+      ],
+      "residual_contrast_pass": true,
+      "updates_to_threshold": {
+        "threshold": 0.9,
+        "treatment_median": 3.6344765020247944,
+        "reference_median": 3.8219450362831564,
+        "updates_saved": 0.9015540490911139,
+        "updates_saved_ci": [
+          0.4297205287292836,
+          1.62251726379213
+        ],
+        "n_facts": 192,
+        "treatment_reach_rate": 1.0,
+        "reference_reach_rate": 0.9947916666666666,
+        "primary_pass": true,
+        "n_boot": 2000
+      },
+      "threshold": 0.9
+    },
+    {
+      "stream_steps": 150,
+      "delta_log_odds": 0.49027780744134547,
+      "delta_log_odds_ci": [
+        0.4102970934511847,
+        0.5786464089002471
+      ],
+      "mean_js": 0.075923540688198,
+      "learned_exact_match": 0.23177083333333334,
+      "control_exact_match": 0.13541666666666666,
+      "n_relearn_curves": 4608,
+      "treatment": "learned",
+      "reference": "control",
+      "early_contrast": 0.1775211877096691,
+      "early_contrast_ci": [
+        0.053769180318304015,
+        0.30435845803778516
+      ],
+      "integrated_gain": 0.7534775229712827,
+      "primary_pass": true,
+      "n_facts": 192,
+      "savings_at_zero_baseline": 0.33119116339516896,
+      "savings_at_zero_baseline_ci": [
+        0.1753278766388158,
+        0.47598973848196974
+      ],
+      "baseline_slope": -0.2512774304444468,
+      "baseline_slope_ci": [
+        -0.39493697357792423,
+        -0.10853696471336607
+      ],
+      "baseline_regression_pass": true,
+      "baseline_d_source": "behavioral_eval",
+      "savings_at_zero_baseline_relearn_k0": 0.2578111233910167,
+      "savings_at_zero_baseline_relearn_k0_ci": [
+        0.10908543670507932,
+        0.4110431725287622
+      ],
+      "baseline_slope_relearn_k0": -0.1821479817259625,
+      "residual_contrast": 0.25376859409183555,
+      "residual_contrast_ci": [
+        0.12071379086553284,
+        0.3917732811290481
+      ],
+      "residual_contrast_pass": true,
+      "updates_to_threshold": {
+        "threshold": 0.9,
+        "treatment_median": 3.545138483323732,
+        "reference_median": 3.7771320905145913,
+        "updates_saved": 1.0724009451728629,
+        "updates_saved_ci": [
+          0.5915521060012541,
+          1.816736821099853
+        ],
+        "n_facts": 192,
+        "treatment_reach_rate": 1.0,
+        "reference_reach_rate": 0.9947916666666666,
+        "primary_pass": true,
+        "n_boot": 2000
+      },
+      "threshold": 0.9
+    },
+    {
+      "stream_steps": 200,
+      "delta_log_odds": 0.6004193751629613,
+      "delta_log_odds_ci": [
+        0.5170717814899906,
+        0.6830056146664408
+      ],
+      "mean_js": 0.07141153737073037,
+      "learned_exact_match": 0.2591145833333333,
+      "control_exact_match": 0.13151041666666666,
+      "n_relearn_curves": 4608,
+      "treatment": "learned",
+      "reference": "control",
+      "early_contrast": 0.1646859343388728,
+      "early_contrast_ci": [
+        0.04856428591965442,
+        0.303236137488642
+      ],
+      "integrated_gain": 0.5987916095324384,
+      "primary_pass": true,
+      "n_facts": 192,
+      "savings_at_zero_baseline": 0.27648610371700183,
+      "savings_at_zero_baseline_ci": [
+        0.1309870151573791,
+        0.4273208297697033
+      ],
+      "baseline_slope": -0.16236436358659137,
+      "baseline_slope_ci": [
+        -0.3023104792540901,
+        -0.020543578833844334
+      ],
+      "baseline_regression_pass": true,
+      "baseline_d_source": "behavioral_eval",
+      "savings_at_zero_baseline_relearn_k0": 0.2486168789192978,
+      "savings_at_zero_baseline_relearn_k0_ci": [
+        0.10702294919376981,
+        0.39548607112186673
+      ],
+      "baseline_slope_relearn_k0": -0.167328028150654,
+      "residual_contrast": 0.25847200695895717,
+      "residual_contrast_ci": [
+        0.12946498844494894,
+        0.39038140240346575
+      ],
+      "residual_contrast_pass": true,
+      "updates_to_threshold": {
+        "threshold": 0.9,
+        "treatment_median": 3.4513042257334092,
+        "reference_median": 3.7351264397515127,
+        "updates_saved": 1.0567956526933868,
+        "updates_saved_ci": [
+          0.5674459059043954,
+          1.7744512573005577
+        ],
+        "n_facts": 192,
+        "treatment_reach_rate": 1.0,
+        "reference_reach_rate": 0.9947916666666666,
+        "primary_pass": true,
+        "n_boot": 2000
+      },
+      "threshold": 0.9
+    },
+    {
+      "stream_steps": 250,
+      "delta_log_odds": 0.7982752841635768,
+      "delta_log_odds_ci": [
+        0.705093759351141,
+        0.8917428564489568
+      ],
+      "mean_js": 0.08963887733230551,
+      "learned_exact_match": 0.3046875,
+      "control_exact_match": 0.12109375,
+      "n_relearn_curves": 4608,
+      "treatment": "learned",
+      "reference": "control",
+      "early_contrast": 0.08187665785456666,
+      "early_contrast_ci": [
+        -0.0563168842888191,
+        0.20894856538905737
+      ],
+      "integrated_gain": -0.013237644371208834,
+      "primary_pass": false,
+      "n_facts": 192,
+      "savings_at_zero_baseline": 0.21552583811935203,
+      "savings_at_zero_baseline_ci": [
+        0.0399882111535,
+        0.3787360374478684
+      ],
+      "baseline_slope": -0.1559227743078618,
+      "baseline_slope_ci": [
+        -0.2885471098690976,
+        -0.014443540323259944
+      ],
+      "baseline_regression_pass": true,
+      "baseline_d_source": "behavioral_eval",
+      "savings_at_zero_baseline_relearn_k0": 0.210694407247639,
+      "savings_at_zero_baseline_relearn_k0_ci": [
+        0.06543356274088494,
+        0.34991351325388903
+      ],
+      "baseline_slope_relearn_k0": -0.21021984504047111,
+      "residual_contrast": 0.19384536314301826,
+      "residual_contrast_ci": [
+        0.05206071760769264,
+        0.32449909196678944
+      ],
+      "residual_contrast_pass": true,
+      "updates_to_threshold": {
+        "threshold": 0.9,
+        "treatment_median": 3.2639469206372844,
+        "reference_median": 3.6198351575840206,
+        "updates_saved": 1.0717720182829005,
+        "updates_saved_ci": [
+          0.5577679588042423,
+          1.8107833049609976
+        ],
+        "n_facts": 192,
+        "treatment_reach_rate": 1.0,
+        "reference_reach_rate": 0.9947916666666666,
+        "primary_pass": true,
+        "n_boot": 2000
+      },
+      "threshold": 0.9
+    },
+    {
+      "stream_steps": 400,
+      "delta_log_odds": 0.8900978157173628,
+      "delta_log_odds_ci": [
+        0.7987081943900252,
+        0.9893080993555307
+      ],
+      "mean_js": 0.0973147374311319,
+      "learned_exact_match": 0.3450520833333333,
+      "control_exact_match": 0.12239583333333333,
+      "n_relearn_curves": 4608,
+      "treatment": "learned",
+      "reference": "control",
+      "early_contrast": 0.05423772941141759,
+      "early_contrast_ci": [
+        -0.08352828899899101,
+        0.18524861938424766
+      ],
+      "integrated_gain": -0.23232052333626965,
+      "primary_pass": false,
+      "n_facts": 192,
+      "savings_at_zero_baseline": 0.24182585458512534,
+      "savings_at_zero_baseline_ci": [
+        0.03798168469522874,
+        0.43115133073038825
+      ],
+      "baseline_slope": -0.19645502108812543,
+      "baseline_slope_ci": [
+        -0.3444753485298029,
+        -0.04793394395664104
+      ],
+      "baseline_regression_pass": true,
+      "baseline_d_source": "behavioral_eval",
+      "savings_at_zero_baseline_relearn_k0": 0.24808447395556352,
+      "savings_at_zero_baseline_relearn_k0_ci": [
+        0.08547162796543621,
+        0.40851800662576176
+      ],
+      "baseline_slope_relearn_k0": -0.292912273167479,
+      "residual_contrast": 0.1846978780365953,
+      "residual_contrast_ci": [
+        0.04759965091536624,
+        0.3343265937080539
+      ],
+      "residual_contrast_pass": true,
+      "updates_to_threshold": {
+        "threshold": 0.9,
+        "treatment_median": 3.1719663918071825,
+        "reference_median": 3.633528110926459,
+        "updates_saved": 1.045730085406143,
+        "updates_saved_ci": [
+          0.4392113195301011,
+          1.8499846662420778
+        ],
+        "n_facts": 192,
+        "treatment_reach_rate": 1.0,
+        "reference_reach_rate": 0.9947916666666666,
+        "primary_pass": true,
+        "n_boot": 2000
+      },
+      "threshold": 0.9
+    }
+  ],
+  "by_contrast": {
+    "learned_vs_control": {
+      "treatment": "learned",
+      "reference": "control",
+      "deepest_forgetting_step": 125,
+      "deepest_forgetting_delta_log_odds": 0.4589964824051676,
+      "savings_at_deepest": 0.14538771183368487,
+      "savings_at_deepest_ci": [
+        0.03360329963313184,
+        0.25647256741068186
+      ],
+      "savings_at_deepest_pass": true,
+      "savings_at_zero_baseline_at_deepest": 0.2670192366166273,
+      "savings_at_zero_baseline_at_deepest_ci": [
+        0.12461302449471041,
+        0.40644777756375894
+      ],
+      "baseline_slope_at_deepest": -0.24122041038545894,
+      "residual_contrast": 0.23407019301302237,
+      "residual_contrast_ci": [
+        0.1233564273124765,
+        0.34889661478337003
+      ],
+      "residual_contrast_pass": true,
+      "threshold": 0.9,
+      "threshold_selection": {
+        "threshold": 0.9,
+        "min_reach_rate": 0.7,
+        "candidates": [
+          {
+            "threshold": 0.9,
+            "learned": 1.0,
+            "control": 0.9947916666666666
+          }
+        ]
+      },
+      "checkpoints": [
+        {
+          "stream_steps": 0,
+          "delta_log_odds": 10.642845281612573,
+          "delta_log_odds_ci": [
+            10.128387666933374,
+            11.18178585565496
+          ],
+          "mean_js": 0.7057762039808825,
+          "learned_exact_match": 0.9622395833333334,
+          "control_exact_match": 0.17708333333333334,
+          "n_relearn_curves": 4608,
+          "treatment": "learned",
+          "reference": "control",
+          "early_contrast": -5.817526963453657,
+          "early_contrast_ci": [
+            -6.440868309682271,
+            -5.165328671031847
+          ],
+          "integrated_gain": -36.005542224385806,
+          "primary_pass": false,
+          "n_facts": 192,
+          "savings_at_zero_baseline": -1.9434079161188864,
+          "savings_at_zero_baseline_ci": [
+            -3.3546098372235296,
+            -0.5147034100423874
+          ],
+          "baseline_slope": -0.3701354687096668,
+          "baseline_slope_ci": [
+            -0.5079065469642084,
+            -0.2280633823051511
+          ],
+          "baseline_regression_pass": false,
+          "baseline_d_source": "behavioral_eval",
+          "savings_at_zero_baseline_relearn_k0": -0.068508968731082,
+          "savings_at_zero_baseline_relearn_k0_ci": [
+            -1.117059036672734,
+            1.040292101216478
+          ],
+          "baseline_slope_relearn_k0": -0.7019204330127028,
+          "residual_contrast": -2.8832049146524583,
+          "residual_contrast_ci": [
+            -3.420329799066412,
+            -2.3017894503306096
+          ],
+          "residual_contrast_pass": false,
+          "updates_to_threshold": {
+            "threshold": 0.9,
+            "treatment_median": 0.0,
+            "reference_median": 1.551142157589731,
+            "updates_saved": 2.3277604161709093,
+            "updates_saved_ci": [
+              1.0861654589119096,
+              3.696262881079034
+            ],
+            "n_facts": 192,
+            "treatment_reach_rate": 0.984375,
+            "reference_reach_rate": 0.96875,
+            "primary_pass": true,
+            "n_boot": 2000
+          },
+          "threshold": 0.9
+        },
+        {
+          "stream_steps": 25,
+          "delta_log_odds": 7.259733766755958,
+          "delta_log_odds_ci": [
+            6.893734084274438,
+            7.6297460005984306
+          ],
+          "mean_js": 0.6333808695232405,
+          "learned_exact_match": 0.9088541666666666,
+          "control_exact_match": 0.16015625,
+          "n_relearn_curves": 4608,
+          "treatment": "learned",
+          "reference": "control",
+          "early_contrast": -3.491981300261387,
+          "early_contrast_ci": [
+            -3.914693278975824,
+            -3.0822179713163886
+          ],
+          "integrated_gain": -22.089158848538823,
+          "primary_pass": false,
+          "n_facts": 192,
+          "savings_at_zero_baseline": -0.4709124234017817,
+          "savings_at_zero_baseline_ci": [
+            -1.2687281541887496,
+            0.40944326499124656
+          ],
+          "baseline_slope": -0.4172839345434773,
+          "baseline_slope_ci": [
+            -0.5380685600091082,
+            -0.3070363271239905
+          ],
+          "baseline_regression_pass": false,
+          "baseline_d_source": "behavioral_eval",
+          "savings_at_zero_baseline_relearn_k0": -0.13111784590825157,
+          "savings_at_zero_baseline_relearn_k0_ci": [
+            -0.9164757119820205,
+            0.6219740649126514
+          ],
+          "baseline_slope_relearn_k0": -0.6409080113624395,
+          "residual_contrast": -2.1301492926599233,
+          "residual_contrast_ci": [
+            -2.533917044590331,
+            -1.72311178097665
+          ],
+          "residual_contrast_pass": false,
+          "updates_to_threshold": {
+            "threshold": 0.9,
+            "treatment_median": 0.39008904782263754,
+            "reference_median": 1.7732059221494052,
+            "updates_saved": 2.139875429512987,
+            "updates_saved_ci": [
+              1.4240255325017304,
+              3.0628592290944154
+            ],
+            "n_facts": 192,
+            "treatment_reach_rate": 0.9947916666666666,
+            "reference_reach_rate": 0.984375,
+            "primary_pass": true,
+            "n_boot": 2000
+          },
+          "threshold": 0.9
+        },
+        {
+          "stream_steps": 50,
+          "delta_log_odds": 0.9100467919268337,
+          "delta_log_odds_ci": [
+            0.7960570478256093,
+            1.0172436725591025
+          ],
+          "mean_js": 0.11349555078817274,
+          "learned_exact_match": 0.36328125,
+          "control_exact_match": 0.13541666666666666,
+          "n_relearn_curves": 4608,
+          "treatment": "learned",
+          "reference": "control",
+          "early_contrast": 0.1539771783325546,
+          "early_contrast_ci": [
+            0.01149760272724435,
+            0.30208120191751076
+          ],
+          "integrated_gain": 0.3418692765825626,
+          "primary_pass": true,
+          "n_facts": 192,
+          "savings_at_zero_baseline": 0.3093645839311796,
+          "savings_at_zero_baseline_ci": [
+            0.11330332442305613,
+            0.500904528137318
+          ],
+          "baseline_slope": -0.16229751559013852,
+          "baseline_slope_ci": [
+            -0.28457572368697975,
+            -0.02574230715574362
+          ],
+          "baseline_regression_pass": true,
+          "baseline_d_source": "behavioral_eval",
+          "savings_at_zero_baseline_relearn_k0": 0.42086074509760674,
+          "savings_at_zero_baseline_relearn_k0_ci": [
+            0.23579055525849327,
+            0.602005330516432
+          ],
+          "baseline_slope_relearn_k0": -0.35971046363515363,
+          "residual_contrast": 0.2593415563632549,
+          "residual_contrast_ci": [
+            0.11591724607767458,
+            0.4021788970529134
+          ],
+          "residual_contrast_pass": true,
+          "updates_to_threshold": {
+            "threshold": 0.9,
+            "treatment_median": 3.0213949327465937,
+            "reference_median": 3.5847119505632508,
+            "updates_saved": 0.9374019470106191,
+            "updates_saved_ci": [
+              0.7695881241383935,
+              1.1152632135156482
+            ],
+            "n_facts": 192,
+            "treatment_reach_rate": 1.0,
+            "reference_reach_rate": 1.0,
+            "primary_pass": true,
+            "n_boot": 2000
+          },
+          "threshold": 0.9
+        },
+        {
+          "stream_steps": 75,
+          "delta_log_odds": 0.5406772475395748,
+          "delta_log_odds_ci": [
+            0.4533753804506332,
+            0.633244873076512
+          ],
+          "mean_js": 0.08375232154856731,
+          "learned_exact_match": 0.23307291666666666,
+          "control_exact_match": 0.12760416666666666,
+          "n_relearn_curves": 4608,
+          "treatment": "learned",
+          "reference": "control",
+          "early_contrast": 0.2035091634564365,
+          "early_contrast_ci": [
+            0.07830361783850345,
+            0.3196000326159193
+          ],
+          "integrated_gain": 0.9286983484523849,
+          "primary_pass": true,
+          "n_facts": 192,
+          "savings_at_zero_baseline": 0.3571563818171539,
+          "savings_at_zero_baseline_ci": [
+            0.22162343045067742,
+            0.4930269541588445
+          ],
+          "baseline_slope": -0.25167714032096833,
+          "baseline_slope_ci": [
+            -0.36199362702904603,
+            -0.13775496883944044
+          ],
+          "baseline_regression_pass": true,
+          "baseline_d_source": "behavioral_eval",
+          "savings_at_zero_baseline_relearn_k0": 0.33206682709589097,
+          "savings_at_zero_baseline_relearn_k0_ci": [
+            0.1992789053979117,
+            0.4635042024310324
+          ],
+          "baseline_slope_relearn_k0": -0.2902220508660001,
+          "residual_contrast": 0.26302427264126066,
+          "residual_contrast_ci": [
+            0.14450483020053595,
+            0.3776112422017056
+          ],
+          "residual_contrast_pass": true,
+          "updates_to_threshold": {
+            "threshold": 0.9,
+            "treatment_median": 3.544180925124153,
+            "reference_median": 3.7503718532313535,
+            "updates_saved": 1.1193020769085296,
+            "updates_saved_ci": [
+              0.6646021731490622,
+              1.8415590510734867
+            ],
+            "n_facts": 192,
+            "treatment_reach_rate": 1.0,
+            "reference_reach_rate": 0.9947916666666666,
+            "primary_pass": true,
+            "n_boot": 2000
+          },
+          "threshold": 0.9
+        },
+        {
+          "stream_steps": 100,
+          "delta_log_odds": 0.4608491593245981,
+          "delta_log_odds_ci": [
+            0.37729394203544064,
+            0.5463546420076837
+          ],
+          "mean_js": 0.07690880191869519,
+          "learned_exact_match": 0.21354166666666666,
+          "control_exact_match": 0.12239583333333333,
+          "n_relearn_curves": 4608,
+          "treatment": "learned",
+          "reference": "control",
+          "early_contrast": 0.1894813581652967,
+          "early_contrast_ci": [
+            0.07983421626766914,
+            0.3026665804392414
+          ],
+          "integrated_gain": 0.939036865882301,
+          "primary_pass": true,
+          "n_facts": 192,
+          "savings_at_zero_baseline": 0.28718370709010055,
+          "savings_at_zero_baseline_ci": [
+            0.17645071944926688,
+            0.40595849827702035
+          ],
+          "baseline_slope": -0.22112971010764337,
+          "baseline_slope_ci": [
+            -0.3263579076953802,
+            -0.12211933959847061
+          ],
+          "baseline_regression_pass": true,
+          "baseline_d_source": "behavioral_eval",
+          "savings_at_zero_baseline_relearn_k0": 0.27396160096571703,
+          "savings_at_zero_baseline_relearn_k0_ci": [
+            0.15364993780716898,
+            0.3921797731386326
+          ],
+          "baseline_slope_relearn_k0": -0.24875423056545357,
+          "residual_contrast": 0.23407019301302237,
+          "residual_contrast_ci": [
+            0.1300007123376237,
+            0.34807058045128775
+          ],
+          "residual_contrast_pass": true,
+          "updates_to_threshold": {
+            "threshold": 0.9,
+            "treatment_median": 3.6082919820551567,
+            "reference_median": 3.8341526673939086,
+            "updates_saved": 0.9465745884278407,
+            "updates_saved_ci": [
+              0.519692486457682,
+              1.7437972622931321
+            ],
+            "n_facts": 192,
+            "treatment_reach_rate": 1.0,
+            "reference_reach_rate": 0.9947916666666666,
+            "primary_pass": true,
+            "n_boot": 2000
+          },
+          "threshold": 0.9
+        },
+        {
+          "stream_steps": 125,
+          "delta_log_odds": 0.4589964824051676,
+          "delta_log_odds_ci": [
+            0.38480012947100245,
+            0.5318101836653922
+          ],
+          "mean_js": 0.057562217057612726,
+          "learned_exact_match": 0.21484375,
+          "control_exact_match": 0.12239583333333333,
+          "n_relearn_curves": 4608,
+          "treatment": "learned",
+          "reference": "control",
+          "early_contrast": 0.14538771183368487,
+          "early_contrast_ci": [
+            0.03360329963313184,
+            0.25647256741068186
+          ],
+          "integrated_gain": 0.6018359486566899,
+          "primary_pass": true,
+          "n_facts": 192,
+          "savings_at_zero_baseline": 0.2670192366166273,
+          "savings_at_zero_baseline_ci": [
+            0.12461302449471041,
+            0.40644777756375894
+          ],
+          "baseline_slope": -0.24122041038545894,
+          "baseline_slope_ci": [
+            -0.4050584767707086,
+            -0.0828415262993999
+          ],
+          "baseline_regression_pass": true,
+          "baseline_d_source": "behavioral_eval",
+          "savings_at_zero_baseline_relearn_k0": 0.22249858087041718,
+          "savings_at_zero_baseline_relearn_k0_ci": [
+            0.10702798603705438,
+            0.34673637781093325
+          ],
+          "baseline_slope_relearn_k0": -0.21670763682966632,
+          "residual_contrast": 0.20554482514521824,
+          "residual_contrast_ci": [
+            0.09192852591798668,
+            0.32061960145658724
+          ],
+          "residual_contrast_pass": true,
+          "updates_to_threshold": {
+            "threshold": 0.9,
+            "treatment_median": 3.6344765020247944,
+            "reference_median": 3.8219450362831564,
+            "updates_saved": 0.9015540490911139,
+            "updates_saved_ci": [
+              0.4297205287292836,
+              1.62251726379213
+            ],
+            "n_facts": 192,
+            "treatment_reach_rate": 1.0,
+            "reference_reach_rate": 0.9947916666666666,
+            "primary_pass": true,
+            "n_boot": 2000
+          },
+          "threshold": 0.9
+        },
+        {
+          "stream_steps": 150,
+          "delta_log_odds": 0.49027780744134547,
+          "delta_log_odds_ci": [
+            0.4102970934511847,
+            0.5786464089002471
+          ],
+          "mean_js": 0.075923540688198,
+          "learned_exact_match": 0.23177083333333334,
+          "control_exact_match": 0.13541666666666666,
+          "n_relearn_curves": 4608,
+          "treatment": "learned",
+          "reference": "control",
+          "early_contrast": 0.1775211877096691,
+          "early_contrast_ci": [
+            0.053769180318304015,
+            0.30435845803778516
+          ],
+          "integrated_gain": 0.7534775229712827,
+          "primary_pass": true,
+          "n_facts": 192,
+          "savings_at_zero_baseline": 0.33119116339516896,
+          "savings_at_zero_baseline_ci": [
+            0.1753278766388158,
+            0.47598973848196974
+          ],
+          "baseline_slope": -0.2512774304444468,
+          "baseline_slope_ci": [
+            -0.39493697357792423,
+            -0.10853696471336607
+          ],
+          "baseline_regression_pass": true,
+          "baseline_d_source": "behavioral_eval",
+          "savings_at_zero_baseline_relearn_k0": 0.2578111233910167,
+          "savings_at_zero_baseline_relearn_k0_ci": [
+            0.10908543670507932,
+            0.4110431725287622
+          ],
+          "baseline_slope_relearn_k0": -0.1821479817259625,
+          "residual_contrast": 0.25376859409183555,
+          "residual_contrast_ci": [
+            0.12071379086553284,
+            0.3917732811290481
+          ],
+          "residual_contrast_pass": true,
+          "updates_to_threshold": {
+            "threshold": 0.9,
+            "treatment_median": 3.545138483323732,
+            "reference_median": 3.7771320905145913,
+            "updates_saved": 1.0724009451728629,
+            "updates_saved_ci": [
+              0.5915521060012541,
+              1.816736821099853
+            ],
+            "n_facts": 192,
+            "treatment_reach_rate": 1.0,
+            "reference_reach_rate": 0.9947916666666666,
+            "primary_pass": true,
+            "n_boot": 2000
+          },
+          "threshold": 0.9
+        },
+        {
+          "stream_steps": 200,
+          "delta_log_odds": 0.6004193751629613,
+          "delta_log_odds_ci": [
+            0.5170717814899906,
+            0.6830056146664408
+          ],
+          "mean_js": 0.07141153737073037,
+          "learned_exact_match": 0.2591145833333333,
+          "control_exact_match": 0.13151041666666666,
+          "n_relearn_curves": 4608,
+          "treatment": "learned",
+          "reference": "control",
+          "early_contrast": 0.1646859343388728,
+          "early_contrast_ci": [
+            0.04856428591965442,
+            0.303236137488642
+          ],
+          "integrated_gain": 0.5987916095324384,
+          "primary_pass": true,
+          "n_facts": 192,
+          "savings_at_zero_baseline": 0.27648610371700183,
+          "savings_at_zero_baseline_ci": [
+            0.1309870151573791,
+            0.4273208297697033
+          ],
+          "baseline_slope": -0.16236436358659137,
+          "baseline_slope_ci": [
+            -0.3023104792540901,
+            -0.020543578833844334
+          ],
+          "baseline_regression_pass": true,
+          "baseline_d_source": "behavioral_eval",
+          "savings_at_zero_baseline_relearn_k0": 0.2486168789192978,
+          "savings_at_zero_baseline_relearn_k0_ci": [
+            0.10702294919376981,
+            0.39548607112186673
+          ],
+          "baseline_slope_relearn_k0": -0.167328028150654,
+          "residual_contrast": 0.25847200695895717,
+          "residual_contrast_ci": [
+            0.12946498844494894,
+            0.39038140240346575
+          ],
+          "residual_contrast_pass": true,
+          "updates_to_threshold": {
+            "threshold": 0.9,
+            "treatment_median": 3.4513042257334092,
+            "reference_median": 3.7351264397515127,
+            "updates_saved": 1.0567956526933868,
+            "updates_saved_ci": [
+              0.5674459059043954,
+              1.7744512573005577
+            ],
+            "n_facts": 192,
+            "treatment_reach_rate": 1.0,
+            "reference_reach_rate": 0.9947916666666666,
+            "primary_pass": true,
+            "n_boot": 2000
+          },
+          "threshold": 0.9
+        },
+        {
+          "stream_steps": 250,
+          "delta_log_odds": 0.7982752841635768,
+          "delta_log_odds_ci": [
+            0.705093759351141,
+            0.8917428564489568
+          ],
+          "mean_js": 0.08963887733230551,
+          "learned_exact_match": 0.3046875,
+          "control_exact_match": 0.12109375,
+          "n_relearn_curves": 4608,
+          "treatment": "learned",
+          "reference": "control",
+          "early_contrast": 0.08187665785456666,
+          "early_contrast_ci": [
+            -0.0563168842888191,
+            0.20894856538905737
+          ],
+          "integrated_gain": -0.013237644371208834,
+          "primary_pass": false,
+          "n_facts": 192,
+          "savings_at_zero_baseline": 0.21552583811935203,
+          "savings_at_zero_baseline_ci": [
+            0.0399882111535,
+            0.3787360374478684
+          ],
+          "baseline_slope": -0.1559227743078618,
+          "baseline_slope_ci": [
+            -0.2885471098690976,
+            -0.014443540323259944
+          ],
+          "baseline_regression_pass": true,
+          "baseline_d_source": "behavioral_eval",
+          "savings_at_zero_baseline_relearn_k0": 0.210694407247639,
+          "savings_at_zero_baseline_relearn_k0_ci": [
+            0.06543356274088494,
+            0.34991351325388903
+          ],
+          "baseline_slope_relearn_k0": -0.21021984504047111,
+          "residual_contrast": 0.19384536314301826,
+          "residual_contrast_ci": [
+            0.05206071760769264,
+            0.32449909196678944
+          ],
+          "residual_contrast_pass": true,
+          "updates_to_threshold": {
+            "threshold": 0.9,
+            "treatment_median": 3.2639469206372844,
+            "reference_median": 3.6198351575840206,
+            "updates_saved": 1.0717720182829005,
+            "updates_saved_ci": [
+              0.5577679588042423,
+              1.8107833049609976
+            ],
+            "n_facts": 192,
+            "treatment_reach_rate": 1.0,
+            "reference_reach_rate": 0.9947916666666666,
+            "primary_pass": true,
+            "n_boot": 2000
+          },
+          "threshold": 0.9
+        },
+        {
+          "stream_steps": 400,
+          "delta_log_odds": 0.8900978157173628,
+          "delta_log_odds_ci": [
+            0.7987081943900252,
+            0.9893080993555307
+          ],
+          "mean_js": 0.0973147374311319,
+          "learned_exact_match": 0.3450520833333333,
+          "control_exact_match": 0.12239583333333333,
+          "n_relearn_curves": 4608,
+          "treatment": "learned",
+          "reference": "control",
+          "early_contrast": 0.05423772941141759,
+          "early_contrast_ci": [
+            -0.08352828899899101,
+            0.18524861938424766
+          ],
+          "integrated_gain": -0.23232052333626965,
+          "primary_pass": false,
+          "n_facts": 192,
+          "savings_at_zero_baseline": 0.24182585458512534,
+          "savings_at_zero_baseline_ci": [
+            0.03798168469522874,
+            0.43115133073038825
+          ],
+          "baseline_slope": -0.19645502108812543,
+          "baseline_slope_ci": [
+            -0.3444753485298029,
+            -0.04793394395664104
+          ],
+          "baseline_regression_pass": true,
+          "baseline_d_source": "behavioral_eval",
+          "savings_at_zero_baseline_relearn_k0": 0.24808447395556352,
+          "savings_at_zero_baseline_relearn_k0_ci": [
+            0.08547162796543621,
+            0.40851800662576176
+          ],
+          "baseline_slope_relearn_k0": -0.292912273167479,
+          "residual_contrast": 0.1846978780365953,
+          "residual_contrast_ci": [
+            0.04759965091536624,
+            0.3343265937080539
+          ],
+          "residual_contrast_pass": true,
+          "updates_to_threshold": {
+            "threshold": 0.9,
+            "treatment_median": 3.1719663918071825,
+            "reference_median": 3.633528110926459,
+            "updates_saved": 1.045730085406143,
+            "updates_saved_ci": [
+              0.4392113195301011,
+              1.8499846662420778
+            ],
+            "n_facts": 192,
+            "treatment_reach_rate": 1.0,
+            "reference_reach_rate": 0.9947916666666666,
+            "primary_pass": true,
+            "n_boot": 2000
+          },
+          "threshold": 0.9
+        }
+      ]
+    },
+    "learned_vs_wrong": {
+      "treatment": "learned",
+      "reference": "wrong",
+      "deepest_forgetting_step": 125,
+      "deepest_forgetting_delta_log_odds": 0.4589964824051676,
+      "savings_at_deepest": 0.15767841797709947,
+      "savings_at_deepest_ci": [
+        0.03602046913221101,
+        0.28666162852452143
+      ],
+      "savings_at_deepest_pass": true,
+      "savings_at_zero_baseline_at_deepest": 0.32008910071888774,
+      "savings_at_zero_baseline_at_deepest_ci": [
+        0.13827449157406818,
+        0.5063492084169255
+      ],
+      "baseline_slope_at_deepest": -0.2450177341457533,
+      "residual_contrast": 0.272221753278204,
+      "residual_contrast_ci": [
+        0.14333468532206467,
+        0.4102443847925709
+      ],
+      "residual_contrast_pass": true,
+      "threshold": 0.9,
+      "threshold_selection": {
+        "threshold": 0.9,
+        "min_reach_rate": 0.7,
+        "candidates": [
+          {
+            "threshold": 0.9,
+            "learned": 1.0,
+            "control": 0.9947916666666666
+          }
+        ]
+      },
+      "checkpoints": [
+        {
+          "stream_steps": 0,
+          "delta_log_odds": 10.642845281612573,
+          "delta_log_odds_ci": [
+            10.128387666933374,
+            11.18178585565496
+          ],
+          "mean_js": 0.7057762039808825,
+          "learned_exact_match": 0.9622395833333334,
+          "control_exact_match": 0.17708333333333334,
+          "n_relearn_curves": 4608,
+          "treatment": "learned",
+          "reference": "wrong",
+          "early_contrast": -8.299936624335274,
+          "early_contrast_ci": [
+            -8.953113252550452,
+            -7.615357766026711
+          ],
+          "integrated_gain": -51.62581875095943,
+          "primary_pass": false,
+          "n_facts": 192,
+          "savings_at_zero_baseline": -2.3815363568064516,
+          "savings_at_zero_baseline_ci": [
+            -4.064641624567314,
+            -0.5881759395383137
+          ],
+          "baseline_slope": -0.34692988543585423,
+          "baseline_slope_ci": [
+            -0.4429922732746012,
+            -0.24599063441101926
+          ],
+          "baseline_regression_pass": false,
+          "baseline_d_source": "behavioral_eval",
+          "savings_at_zero_baseline_relearn_k0": 0.29089774911919264,
+          "savings_at_zero_baseline_relearn_k0_ci": [
+            -1.1201835957444075,
+            1.6946968330628038
+          ],
+          "baseline_slope_relearn_k0": -0.6987957623824863,
+          "residual_contrast": -1.380086267676834,
+          "residual_contrast_ci": [
+            -2.0047850757961516,
+            -0.7405500369438397
+          ],
+          "residual_contrast_pass": false,
+          "updates_to_threshold": {
+            "threshold": 0.9,
+            "treatment_median": 0.0,
+            "reference_median": 1.9714214383720519,
+            "updates_saved": 2.203555507369813,
+            "updates_saved_ci": [
+              0.7778633608634414,
+              3.654765119807071
+            ],
+            "n_facts": 192,
+            "treatment_reach_rate": 0.984375,
+            "reference_reach_rate": 0.9895833333333334,
+            "primary_pass": true,
+            "n_boot": 2000
+          },
+          "threshold": 0.9
+        },
+        {
+          "stream_steps": 25,
+          "delta_log_odds": 7.259733766755958,
+          "delta_log_odds_ci": [
+            6.893734084274438,
+            7.6297460005984306
+          ],
+          "mean_js": 0.6333808695232405,
+          "learned_exact_match": 0.9088541666666666,
+          "control_exact_match": 0.16015625,
+          "n_relearn_curves": 4608,
+          "treatment": "learned",
+          "reference": "wrong",
+          "early_contrast": -4.580634925057109,
+          "early_contrast_ci": [
+            -5.029333033147065,
+            -4.106458273043825
+          ],
+          "integrated_gain": -29.73435279282079,
+          "primary_pass": false,
+          "n_facts": 192,
+          "savings_at_zero_baseline": 0.15345865237322792,
+          "savings_at_zero_baseline_ci": [
+            -0.7646248732105626,
+            1.1639739706409085
+          ],
+          "baseline_slope": -0.41615659148933326,
+          "baseline_slope_ci": [
+            -0.5009156369793374,
+            -0.34380978055068384
+          ],
+          "baseline_regression_pass": false,
+          "baseline_d_source": "behavioral_eval",
+          "savings_at_zero_baseline_relearn_k0": 0.9834801598251967,
+          "savings_at_zero_baseline_relearn_k0_ci": [
+            0.1875304277840823,
+            1.7602471888501525
+          ],
+          "baseline_slope_relearn_k0": -0.7367316099131609,
+          "residual_contrast": -1.2181628067073296,
+          "residual_contrast_ci": [
+            -1.6836765815167711,
+            -0.8169079939065329
+          ],
+          "residual_contrast_pass": false,
+          "updates_to_threshold": {
+            "threshold": 0.9,
+            "treatment_median": 0.39008904782263754,
+            "reference_median": 2.7602804022367446,
+            "updates_saved": 3.34713086076575,
+            "updates_saved_ci": [
+              2.0866756733874103,
+              4.7881149732232124
+            ],
+            "n_facts": 192,
+            "treatment_reach_rate": 0.9947916666666666,
+            "reference_reach_rate": 0.9791666666666666,
+            "primary_pass": true,
+            "n_boot": 2000
+          },
+          "threshold": 0.9
+        },
+        {
+          "stream_steps": 50,
+          "delta_log_odds": 0.9100467919268337,
+          "delta_log_odds_ci": [
+            0.7960570478256093,
+            1.0172436725591025
+          ],
+          "mean_js": 0.11349555078817274,
+          "learned_exact_match": 0.36328125,
+          "control_exact_match": 0.13541666666666666,
+          "n_relearn_curves": 4608,
+          "treatment": "learned",
+          "reference": "wrong",
+          "early_contrast": 0.21732570108780197,
+          "early_contrast_ci": [
+            0.06240134182008017,
+            0.3763110741190778
+          ],
+          "integrated_gain": 0.6159099012562962,
+          "primary_pass": true,
+          "n_facts": 192,
+          "savings_at_zero_baseline": 0.5670709089801693,
+          "savings_at_zero_baseline_ci": [
+            0.3555450965586493,
+            0.783627633315064
+          ],
+          "baseline_slope": -0.28819541741622895,
+          "baseline_slope_ci": [
+            -0.4401573374163188,
+            -0.14065991470223818
+          ],
+          "baseline_regression_pass": true,
+          "baseline_d_source": "behavioral_eval",
+          "savings_at_zero_baseline_relearn_k0": 0.6042988696061461,
+          "savings_at_zero_baseline_relearn_k0_ci": [
+            0.4193807747817491,
+            0.7872825246325342
+          ],
+          "baseline_slope_relearn_k0": -0.4213307718855666,
+          "residual_contrast": 0.37273986346890425,
+          "residual_contrast_ci": [
+            0.2315522947230788,
+            0.5288235130265393
+          ],
+          "residual_contrast_pass": true,
+          "updates_to_threshold": {
+            "threshold": 0.9,
+            "treatment_median": 3.0213949327465937,
+            "reference_median": 3.7419440256205982,
+            "updates_saved": 1.332224434144491,
+            "updates_saved_ci": [
+              1.0865545440589204,
+              1.6408075001183369
+            ],
+            "n_facts": 192,
+            "treatment_reach_rate": 1.0,
+            "reference_reach_rate": 1.0,
+            "primary_pass": true,
+            "n_boot": 2000
+          },
+          "threshold": 0.9
+        },
+        {
+          "stream_steps": 75,
+          "delta_log_odds": 0.5406772475395748,
+          "delta_log_odds_ci": [
+            0.4533753804506332,
+            0.633244873076512
+          ],
+          "mean_js": 0.08375232154856731,
+          "learned_exact_match": 0.23307291666666666,
+          "control_exact_match": 0.12760416666666666,
+          "n_relearn_curves": 4608,
+          "treatment": "learned",
+          "reference": "wrong",
+          "early_contrast": 0.18072522134848434,
+          "early_contrast_ci": [
+            0.03719296472800818,
+            0.32216902147039256
+          ],
+          "integrated_gain": 0.7843809250308215,
+          "primary_pass": true,
+          "n_facts": 192,
+          "savings_at_zero_baseline": 0.4385982870099523,
+          "savings_at_zero_baseline_ci": [
+            0.2687824862703819,
+            0.6004653533877582
+          ],
+          "baseline_slope": -0.3256359784758758,
+          "baseline_slope_ci": [
+            -0.4743892287566415,
+            -0.16996680500345357
+          ],
+          "baseline_regression_pass": true,
+          "baseline_d_source": "behavioral_eval",
+          "savings_at_zero_baseline_relearn_k0": 0.4526634800096959,
+          "savings_at_zero_baseline_relearn_k0_ci": [
+            0.29965863555313366,
+            0.6074180394997065
+          ],
+          "baseline_slope_relearn_k0": -0.45429239236105234,
+          "residual_contrast": 0.2886104426127073,
+          "residual_contrast_ci": [
+            0.14551667800823265,
+            0.41571980884660403
+          ],
+          "residual_contrast_pass": true,
+          "updates_to_threshold": {
+            "threshold": 0.9,
+            "treatment_median": 3.544180925124153,
+            "reference_median": 3.8876432684502618,
+            "updates_saved": 1.0301184811692943,
+            "updates_saved_ci": [
+              0.7010873978319349,
+              1.4152219625617652
+            ],
+            "n_facts": 192,
+            "treatment_reach_rate": 1.0,
+            "reference_reach_rate": 1.0,
+            "primary_pass": true,
+            "n_boot": 2000
+          },
+          "threshold": 0.9
+        },
+        {
+          "stream_steps": 100,
+          "delta_log_odds": 0.4608491593245981,
+          "delta_log_odds_ci": [
+            0.37729394203544064,
+            0.5463546420076837
+          ],
+          "mean_js": 0.07690880191869519,
+          "learned_exact_match": 0.21354166666666666,
+          "control_exact_match": 0.12239583333333333,
+          "n_relearn_curves": 4608,
+          "treatment": "learned",
+          "reference": "wrong",
+          "early_contrast": 0.18047847774337356,
+          "early_contrast_ci": [
+            0.05587500369658735,
+            0.3057038280636861
+          ],
+          "integrated_gain": 0.9261916237000114,
+          "primary_pass": true,
+          "n_facts": 192,
+          "savings_at_zero_baseline": 0.22289638819929491,
+          "savings_at_zero_baseline_ci": [
+            0.08073515677069158,
+            0.3624326079467387
+          ],
+          "baseline_slope": -0.06837722456888062,
+          "baseline_slope_ci": [
+            -0.2104633239070624,
+            0.08819130621669183
+          ],
+          "baseline_regression_pass": true,
+          "baseline_d_source": "behavioral_eval",
+          "savings_at_zero_baseline_relearn_k0": 0.30845204518346125,
+          "savings_at_zero_baseline_relearn_k0_ci": [
+            0.17122700788060463,
+            0.44717480872800286
+          ],
+          "baseline_slope_relearn_k0": -0.26324836405800706,
+          "residual_contrast": 0.272221753278204,
+          "residual_contrast_ci": [
+            0.14688111101705176,
+            0.40461138624261794
+          ],
+          "residual_contrast_pass": true,
+          "updates_to_threshold": {
+            "threshold": 0.9,
+            "treatment_median": 3.6082919820551567,
+            "reference_median": 3.9451994707657523,
+            "updates_saved": 0.9730754423738496,
+            "updates_saved_ci": [
+              0.5708465255197366,
+              1.5707537471946096
+            ],
+            "n_facts": 192,
+            "treatment_reach_rate": 1.0,
+            "reference_reach_rate": 1.0,
+            "primary_pass": true,
+            "n_boot": 2000
+          },
+          "threshold": 0.9
+        },
+        {
+          "stream_steps": 125,
+          "delta_log_odds": 0.4589964824051676,
+          "delta_log_odds_ci": [
+            0.38480012947100245,
+            0.5318101836653922
+          ],
+          "mean_js": 0.057562217057612726,
+          "learned_exact_match": 0.21484375,
+          "control_exact_match": 0.12239583333333333,
+          "n_relearn_curves": 4608,
+          "treatment": "learned",
+          "reference": "wrong",
+          "early_contrast": 0.15767841797709947,
+          "early_contrast_ci": [
+            0.03602046913221101,
+            0.28666162852452143
+          ],
+          "integrated_gain": 0.7652688584511923,
+          "primary_pass": true,
+          "n_facts": 192,
+          "savings_at_zero_baseline": 0.32008910071888774,
+          "savings_at_zero_baseline_ci": [
+            0.13827449157406818,
+            0.5063492084169255
+          ],
+          "baseline_slope": -0.2450177341457533,
+          "baseline_slope_ci": [
+            -0.4560605433174966,
+            -0.03262447127247802
+          ],
+          "baseline_regression_pass": true,
+          "baseline_d_source": "behavioral_eval",
+          "savings_at_zero_baseline_relearn_k0": 0.33906812507449136,
+          "savings_at_zero_baseline_relearn_k0_ci": [
+            0.20274475063599912,
+            0.4793041487272465
+          ],
+          "baseline_slope_relearn_k0": -0.38684808263486486,
+          "residual_contrast": 0.2669163183420579,
+          "residual_contrast_ci": [
+            0.13263438537301708,
+            0.3976576372502578
+          ],
+          "residual_contrast_pass": true,
+          "updates_to_threshold": {
+            "threshold": 0.9,
+            "treatment_median": 3.6344765020247944,
+            "reference_median": 3.949679947871906,
+            "updates_saved": 1.2795149311627767,
+            "updates_saved_ci": [
+              0.5916780092959542,
+              2.292478561127604
+            ],
+            "n_facts": 192,
+            "treatment_reach_rate": 1.0,
+            "reference_reach_rate": 0.9895833333333334,
+            "primary_pass": true,
+            "n_boot": 2000
+          },
+          "threshold": 0.9
+        },
+        {
+          "stream_steps": 150,
+          "delta_log_odds": 0.49027780744134547,
+          "delta_log_odds_ci": [
+            0.4102970934511847,
+            0.5786464089002471
+          ],
+          "mean_js": 0.075923540688198,
+          "learned_exact_match": 0.23177083333333334,
+          "control_exact_match": 0.13541666666666666,
+          "n_relearn_curves": 4608,
+          "treatment": "learned",
+          "reference": "wrong",
+          "early_contrast": 0.18768922383649203,
+          "early_contrast_ci": [
+            0.045329490980265036,
+            0.3300268834912889
+          ],
+          "integrated_gain": 0.9112551775618007,
+          "primary_pass": true,
+          "n_facts": 192,
+          "savings_at_zero_baseline": 0.36454444918776396,
+          "savings_at_zero_baseline_ci": [
+            0.172489399025497,
+            0.5472885681079727
+          ],
+          "baseline_slope": -0.24795427718883345,
+          "baseline_slope_ci": [
+            -0.4243709463863326,
+            -0.0701589530859775
+          ],
+          "baseline_regression_pass": true,
+          "baseline_d_source": "behavioral_eval",
+          "savings_at_zero_baseline_relearn_k0": 0.3562745490667088,
+          "savings_at_zero_baseline_relearn_k0_ci": [
+            0.19561549637049555,
+            0.5282271253341778
+          ],
+          "baseline_slope_relearn_k0": -0.3251346661433439,
+          "residual_contrast": 0.2995773134783875,
+          "residual_contrast_ci": [
+            0.15202887064240836,
+            0.4584884471830117
+          ],
+          "residual_contrast_pass": true,
+          "updates_to_threshold": {
+            "threshold": 0.9,
+            "treatment_median": 3.545138483323732,
+            "reference_median": 3.8698706439629644,
+            "updates_saved": 1.0076467050157065,
+            "updates_saved_ci": [
+              0.6124703302263186,
+              1.498650108751515
+            ],
+            "n_facts": 192,
+            "treatment_reach_rate": 1.0,
+            "reference_reach_rate": 1.0,
+            "primary_pass": true,
+            "n_boot": 2000
+          },
+          "threshold": 0.9
+        },
+        {
+          "stream_steps": 200,
+          "delta_log_odds": 0.6004193751629613,
+          "delta_log_odds_ci": [
+            0.5170717814899906,
+            0.6830056146664408
+          ],
+          "mean_js": 0.07141153737073037,
+          "learned_exact_match": 0.2591145833333333,
+          "control_exact_match": 0.13151041666666666,
+          "n_relearn_curves": 4608,
+          "treatment": "learned",
+          "reference": "wrong",
+          "early_contrast": 0.18871629897872128,
+          "early_contrast_ci": [
+            0.052546329125925315,
+            0.33768777543996004
+          ],
+          "integrated_gain": 0.8706053646174167,
+          "primary_pass": true,
+          "n_facts": 192,
+          "savings_at_zero_baseline": 0.4180218286949093,
+          "savings_at_zero_baseline_ci": [
+            0.23124541926870884,
+            0.6124380104643683
+          ],
+          "baseline_slope": -0.2618411012684651,
+          "baseline_slope_ci": [
+            -0.45044106297685593,
+            -0.08582095110726531
+          ],
+          "baseline_regression_pass": true,
+          "baseline_d_source": "behavioral_eval",
+          "savings_at_zero_baseline_relearn_k0": 0.4133822367560507,
+          "savings_at_zero_baseline_relearn_k0_ci": [
+            0.24840671718725268,
+            0.5878390888305665
+          ],
+          "baseline_slope_relearn_k0": -0.355936135828413,
+          "residual_contrast": 0.31061869172857387,
+          "residual_contrast_ci": [
+            0.14870793333868454,
+            0.46000103515635116
+          ],
+          "residual_contrast_pass": true,
+          "updates_to_threshold": {
+            "threshold": 0.9,
+            "treatment_median": 3.4513042257334092,
+            "reference_median": 3.826561863162148,
+            "updates_saved": 1.6114329505993386,
+            "updates_saved_ci": [
+              0.7980404733317809,
+              2.6331488966518966
+            ],
+            "n_facts": 192,
+            "treatment_reach_rate": 1.0,
+            "reference_reach_rate": 0.9895833333333334,
+            "primary_pass": true,
+            "n_boot": 2000
+          },
+          "threshold": 0.9
+        },
+        {
+          "stream_steps": 250,
+          "delta_log_odds": 0.7982752841635768,
+          "delta_log_odds_ci": [
+            0.705093759351141,
+            0.8917428564489568
+          ],
+          "mean_js": 0.08963887733230551,
+          "learned_exact_match": 0.3046875,
+          "control_exact_match": 0.12109375,
+          "n_relearn_curves": 4608,
+          "treatment": "learned",
+          "reference": "wrong",
+          "early_contrast": 0.13882410534455775,
+          "early_contrast_ci": [
+            -0.011405946179403504,
+            0.28429590270019306
+          ],
+          "integrated_gain": 0.4210064608973629,
+          "primary_pass": false,
+          "n_facts": 192,
+          "savings_at_zero_baseline": 0.46326569568403214,
+          "savings_at_zero_baseline_ci": [
+            0.2436269482206274,
+            0.6860356512215703
+          ],
+          "baseline_slope": -0.2921135457562688,
+          "baseline_slope_ci": [
+            -0.46718860553712716,
+            -0.11682755417597615
+          ],
+          "baseline_regression_pass": true,
+          "baseline_d_source": "behavioral_eval",
+          "savings_at_zero_baseline_relearn_k0": 0.4201362494291152,
+          "savings_at_zero_baseline_relearn_k0_ci": [
+            0.24647268314966259,
+            0.6059019489520602
+          ],
+          "baseline_slope_relearn_k0": -0.3681798199103986,
+          "residual_contrast": 0.2947433482336315,
+          "residual_contrast_ci": [
+            0.13151722655921436,
+            0.4525076535937543
+          ],
+          "residual_contrast_pass": true,
+          "updates_to_threshold": {
+            "threshold": 0.9,
+            "treatment_median": 3.2639469206372844,
+            "reference_median": 3.745803665113848,
+            "updates_saved": 2.0868976472346845,
+            "updates_saved_ci": [
+              1.034065388397932,
+              3.3609129402088227
+            ],
+            "n_facts": 192,
+            "treatment_reach_rate": 1.0,
+            "reference_reach_rate": 0.9791666666666666,
+            "primary_pass": true,
+            "n_boot": 2000
+          },
+          "threshold": 0.9
+        },
+        {
+          "stream_steps": 400,
+          "delta_log_odds": 0.8900978157173628,
+          "delta_log_odds_ci": [
+            0.7987081943900252,
+            0.9893080993555307
+          ],
+          "mean_js": 0.0973147374311319,
+          "learned_exact_match": 0.3450520833333333,
+          "control_exact_match": 0.12239583333333333,
+          "n_relearn_curves": 4608,
+          "treatment": "learned",
+          "reference": "wrong",
+          "early_contrast": 0.08931982469513068,
+          "early_contrast_ci": [
+            -0.05487892038645946,
+            0.23699845367723846
+          ],
+          "integrated_gain": 0.05763993864984879,
+          "primary_pass": false,
+          "n_facts": 192,
+          "savings_at_zero_baseline": 0.46650953761976843,
+          "savings_at_zero_baseline_ci": [
+            0.2293138296601573,
+            0.7031519042464544
+          ],
+          "baseline_slope": -0.30261838377145184,
+          "baseline_slope_ci": [
+            -0.4812578591769925,
+            -0.14583339177844867
+          ],
+          "baseline_regression_pass": true,
+          "baseline_d_source": "behavioral_eval",
+          "savings_at_zero_baseline_relearn_k0": 0.44544196743628056,
+          "savings_at_zero_baseline_relearn_k0_ci": [
+            0.26172889736003807,
+            0.6334714183475455
+          ],
+          "baseline_slope_relearn_k0": -0.4247214487849514,
+          "residual_contrast": 0.27281811647578263,
+          "residual_contrast_ci": [
+            0.11252832681451277,
+            0.4591011044196882
+          ],
+          "residual_contrast_pass": true,
+          "updates_to_threshold": {
+            "threshold": 0.9,
+            "treatment_median": 3.1719663918071825,
+            "reference_median": 3.727730779501371,
+            "updates_saved": 1.9581586965854474,
+            "updates_saved_ci": [
+              0.9600774810367432,
+              3.241077253426715
+            ],
+            "n_facts": 192,
+            "treatment_reach_rate": 1.0,
+            "reference_reach_rate": 0.984375,
+            "primary_pass": true,
+            "n_boot": 2000
+          },
+          "threshold": 0.9
+        }
+      ]
+    },
+    "wrong_vs_control": {
+      "treatment": "wrong",
+      "reference": "control",
+      "deepest_forgetting_step": 125,
+      "deepest_forgetting_delta_log_odds": 0.4589964824051676,
+      "savings_at_deepest": -0.012290706143414596,
+      "savings_at_deepest_ci": [
+        -0.10841904113855377,
+        0.10006971414997952
+      ],
+      "savings_at_deepest_pass": false,
+      "savings_at_zero_baseline_at_deepest": -0.041572194101100565,
+      "savings_at_zero_baseline_at_deepest_ci": [
+        -0.14333061234723737,
+        0.05896616862783886
+      ],
+      "baseline_slope_at_deepest": -0.18460288716777493,
+      "residual_contrast": -0.05379575011645985,
+      "residual_contrast_ci": [
+        -0.15521321496260906,
+        0.05187881035892519
+      ],
+      "residual_contrast_pass": false,
+      "threshold": 0.9,
+      "threshold_selection": {
+        "threshold": 0.9,
+        "min_reach_rate": 0.7,
+        "candidates": [
+          {
+            "threshold": 0.9,
+            "learned": 1.0,
+            "control": 0.9947916666666666
+          }
+        ]
+      },
+      "checkpoints": [
+        {
+          "stream_steps": 0,
+          "delta_log_odds": 10.642845281612573,
+          "delta_log_odds_ci": [
+            10.128387666933374,
+            11.18178585565496
+          ],
+          "mean_js": 0.7057762039808825,
+          "learned_exact_match": 0.9622395833333334,
+          "control_exact_match": 0.17708333333333334,
+          "n_relearn_curves": 4608,
+          "treatment": "wrong",
+          "reference": "control",
+          "early_contrast": 2.4824096608816166,
+          "early_contrast_ci": [
+            1.862892951086981,
+            3.126762374553386
+          ],
+          "integrated_gain": 15.62027652657363,
+          "primary_pass": true,
+          "n_facts": 192,
+          "savings_at_zero_baseline": 0.2597118547809972,
+          "savings_at_zero_baseline_ci": [
+            -0.5652187554023653,
+            1.138903107926247
+          ],
+          "baseline_slope": -0.3371506295987442,
+          "baseline_slope_ci": [
+            -0.43487422113058405,
+            -0.22364532547332433
+          ],
+          "baseline_regression_pass": false,
+          "baseline_d_source": "behavioral_eval",
+          "savings_at_zero_baseline_relearn_k0": -0.30352919350489205,
+          "savings_at_zero_baseline_relearn_k0_ci": [
+            -0.9567347972243189,
+            0.37588646058978475
+          ],
+          "baseline_slope_relearn_k0": -0.6789413213822031,
+          "residual_contrast": -1.5920018712539938,
+          "residual_contrast_ci": [
+            -2.2015946635196375,
+            -1.011134516214548
+          ],
+          "residual_contrast_pass": false,
+          "updates_to_threshold": {
+            "threshold": 0.9,
+            "treatment_median": 1.9714214383720519,
+            "reference_median": 1.551142157589731,
+            "updates_saved": 0.12420490880109636,
+            "updates_saved_ci": [
+              -1.5995745299925188,
+              2.0337133565984975
+            ],
+            "n_facts": 192,
+            "treatment_reach_rate": 0.9895833333333334,
+            "reference_reach_rate": 0.96875,
+            "primary_pass": false,
+            "n_boot": 2000
+          },
+          "threshold": 0.9
+        },
+        {
+          "stream_steps": 25,
+          "delta_log_odds": 7.259733766755958,
+          "delta_log_odds_ci": [
+            6.893734084274438,
+            7.6297460005984306
+          ],
+          "mean_js": 0.6333808695232405,
+          "learned_exact_match": 0.9088541666666666,
+          "control_exact_match": 0.16015625,
+          "n_relearn_curves": 4608,
+          "treatment": "wrong",
+          "reference": "control",
+          "early_contrast": 1.0886536247957226,
+          "early_contrast_ci": [
+            0.6852426955811158,
+            1.4718210996799737
+          ],
+          "integrated_gain": 7.645193944281971,
+          "primary_pass": true,
+          "n_facts": 192,
+          "savings_at_zero_baseline": -0.27670805486555955,
+          "savings_at_zero_baseline_ci": [
+            -0.7764316568258601,
+            0.24370526742320392
+          ],
+          "baseline_slope": -0.3301235909702162,
+          "baseline_slope_ci": [
+            -0.4216516883277962,
+            -0.2381348664687371
+          ],
+          "baseline_regression_pass": false,
+          "baseline_d_source": "behavioral_eval",
+          "savings_at_zero_baseline_relearn_k0": -0.27834978298464835,
+          "savings_at_zero_baseline_relearn_k0_ci": [
+            -0.6861328042472015,
+            0.14446166058773569
+          ],
+          "baseline_slope_relearn_k0": -0.5921551583929765,
+          "residual_contrast": -1.0356324231740974,
+          "residual_contrast_ci": [
+            -1.4469961800883033,
+            -0.5670770296034436
+          ],
+          "residual_contrast_pass": false,
+          "updates_to_threshold": {
+            "threshold": 0.9,
+            "treatment_median": 2.7602804022367446,
+            "reference_median": 1.7732059221494052,
+            "updates_saved": -1.207255431252763,
+            "updates_saved_ci": [
+              -2.6126222356775988,
+              0.10617767774157748
+            ],
+            "n_facts": 192,
+            "treatment_reach_rate": 0.9791666666666666,
+            "reference_reach_rate": 0.984375,
+            "primary_pass": false,
+            "n_boot": 2000
+          },
+          "threshold": 0.9
+        },
+        {
+          "stream_steps": 50,
+          "delta_log_odds": 0.9100467919268337,
+          "delta_log_odds_ci": [
+            0.7960570478256093,
+            1.0172436725591025
+          ],
+          "mean_js": 0.11349555078817274,
+          "learned_exact_match": 0.36328125,
+          "control_exact_match": 0.13541666666666666,
+          "n_relearn_curves": 4608,
+          "treatment": "wrong",
+          "reference": "control",
+          "early_contrast": -0.06334852275524742,
+          "early_contrast_ci": [
+            -0.1812367957882285,
+            0.05437439644965835
+          ],
+          "integrated_gain": -0.2740406246737337,
+          "primary_pass": false,
+          "n_facts": 192,
+          "savings_at_zero_baseline": -0.07369101601917764,
+          "savings_at_zero_baseline_ci": [
+            -0.196934895004111,
+            0.0494558743970953
+          ],
+          "baseline_slope": -0.04037726674215323,
+          "baseline_slope_ci": [
+            -0.168415991620809,
+            0.07661528073823609
+          ],
+          "baseline_regression_pass": false,
+          "baseline_d_source": "behavioral_eval",
+          "savings_at_zero_baseline_relearn_k0": -0.10632382694855881,
+          "savings_at_zero_baseline_relearn_k0_ci": [
+            -0.23325669635221324,
+            0.014188005931730334
+          ],
+          "baseline_slope_relearn_k0": -0.2434660030522959,
+          "residual_contrast": -0.14141597794027108,
+          "residual_contrast_ci": [
+            -0.26154990575666054,
+            -0.019977336805479754
+          ],
+          "residual_contrast_pass": false,
+          "updates_to_threshold": {
+            "threshold": 0.9,
+            "treatment_median": 3.7419440256205982,
+            "reference_median": 3.5847119505632508,
+            "updates_saved": -0.3948224871338723,
+            "updates_saved_ci": [
+              -0.6963894400543366,
+              -0.1558216441293753
+            ],
+            "n_facts": 192,
+            "treatment_reach_rate": 1.0,
+            "reference_reach_rate": 1.0,
+            "primary_pass": false,
+            "n_boot": 2000
+          },
+          "threshold": 0.9
+        },
+        {
+          "stream_steps": 75,
+          "delta_log_odds": 0.5406772475395748,
+          "delta_log_odds_ci": [
+            0.4533753804506332,
+            0.633244873076512
+          ],
+          "mean_js": 0.08375232154856731,
+          "learned_exact_match": 0.23307291666666666,
+          "control_exact_match": 0.12760416666666666,
+          "n_relearn_curves": 4608,
+          "treatment": "wrong",
+          "reference": "control",
+          "early_contrast": 0.022783942107952173,
+          "early_contrast_ci": [
+            -0.08316893539973833,
+            0.13091939688964163
+          ],
+          "integrated_gain": 0.14431742342156356,
+          "primary_pass": false,
+          "n_facts": 192,
+          "savings_at_zero_baseline": 0.0029013912345272255,
+          "savings_at_zero_baseline_ci": [
+            -0.10483567679349126,
+            0.12045064249991486
+          ],
+          "baseline_slope": -0.10959851202452867,
+          "baseline_slope_ci": [
+            -0.2310953674985809,
+            0.019340318224214847
+          ],
+          "baseline_regression_pass": false,
+          "baseline_d_source": "behavioral_eval",
+          "savings_at_zero_baseline_relearn_k0": -0.022463095517438515,
+          "savings_at_zero_baseline_relearn_k0_ci": [
+            -0.12511547454107216,
+            0.08734763359356494
+          ],
+          "baseline_slope_relearn_k0": -0.2907266144439388,
+          "residual_contrast": -0.04718926663046339,
+          "residual_contrast_ci": [
+            -0.16084936181682954,
+            0.05845788169530259
+          ],
+          "residual_contrast_pass": false,
+          "updates_to_threshold": {
+            "threshold": 0.9,
+            "treatment_median": 3.8876432684502618,
+            "reference_median": 3.7503718532313535,
+            "updates_saved": 0.08918359573923546,
+            "updates_saved_ci": [
+              -0.4314739064769577,
+              0.7836260099930078
+            ],
+            "n_facts": 192,
+            "treatment_reach_rate": 1.0,
+            "reference_reach_rate": 0.9947916666666666,
+            "primary_pass": false,
+            "n_boot": 2000
+          },
+          "threshold": 0.9
+        },
+        {
+          "stream_steps": 100,
+          "delta_log_odds": 0.4608491593245981,
+          "delta_log_odds_ci": [
+            0.37729394203544064,
+            0.5463546420076837
+          ],
+          "mean_js": 0.07690880191869519,
+          "learned_exact_match": 0.21354166666666666,
+          "control_exact_match": 0.12239583333333333,
+          "n_relearn_curves": 4608,
+          "treatment": "wrong",
+          "reference": "control",
+          "early_contrast": 0.009002880421923182,
+          "early_contrast_ci": [
+            -0.09506715427202914,
+            0.11141035743716186
+          ],
+          "integrated_gain": 0.012845242182289772,
+          "primary_pass": false,
+          "n_facts": 192,
+          "savings_at_zero_baseline": -0.009019642745156336,
+          "savings_at_zero_baseline_ci": [
+            -0.11246573995932976,
+            0.09592488437941356
+          ],
+          "baseline_slope": -0.10095594217218197,
+          "baseline_slope_ci": [
+            -0.21142940337828336,
+            0.018842978561467043
+          ],
+          "baseline_regression_pass": false,
+          "baseline_d_source": "behavioral_eval",
+          "savings_at_zero_baseline_relearn_k0": -0.028335751641333843,
+          "savings_at_zero_baseline_relearn_k0_ci": [
+            -0.13298456243894025,
+            0.07829332133874879
+          ],
+          "baseline_slope_relearn_k0": -0.254837912054022,
+          "residual_contrast": -0.05379575011645985,
+          "residual_contrast_ci": [
+            -0.16288857998495893,
+            0.04600916746738987
+          ],
+          "residual_contrast_pass": false,
+          "updates_to_threshold": {
+            "threshold": 0.9,
+            "treatment_median": 3.9451994707657523,
+            "reference_median": 3.8341526673939086,
+            "updates_saved": -0.02650085394600878,
+            "updates_saved_ci": [
+              -0.7215719714919867,
+              0.7415324245412355
+            ],
+            "n_facts": 192,
+            "treatment_reach_rate": 1.0,
+            "reference_reach_rate": 0.9947916666666666,
+            "primary_pass": false,
+            "n_boot": 2000
+          },
+          "threshold": 0.9
+        },
+        {
+          "stream_steps": 125,
+          "delta_log_odds": 0.4589964824051676,
+          "delta_log_odds_ci": [
+            0.38480012947100245,
+            0.5318101836653922
+          ],
+          "mean_js": 0.057562217057612726,
+          "learned_exact_match": 0.21484375,
+          "control_exact_match": 0.12239583333333333,
+          "n_relearn_curves": 4608,
+          "treatment": "wrong",
+          "reference": "control",
+          "early_contrast": -0.012290706143414596,
+          "early_contrast_ci": [
+            -0.10841904113855377,
+            0.10006971414997952
+          ],
+          "integrated_gain": -0.1634329097945023,
+          "primary_pass": false,
+          "n_facts": 192,
+          "savings_at_zero_baseline": -0.041572194101100565,
+          "savings_at_zero_baseline_ci": [
+            -0.14333061234723737,
+            0.05896616862783886
+          ],
+          "baseline_slope": -0.18460288716777493,
+          "baseline_slope_ci": [
+            -0.350179224453828,
+            -0.03304994421888823
+          ],
+          "baseline_regression_pass": false,
+          "baseline_d_source": "behavioral_eval",
+          "savings_at_zero_baseline_relearn_k0": -0.0401109934051084,
+          "savings_at_zero_baseline_relearn_k0_ci": [
+            -0.14096111144978749,
+            0.06267469932221842
+          ],
+          "baseline_slope_relearn_k0": -0.2460616076836264,
+          "residual_contrast": -0.07716495209613765,
+          "residual_contrast_ci": [
+            -0.17870857681154645,
+            0.027349095222807374
+          ],
+          "residual_contrast_pass": false,
+          "updates_to_threshold": {
+            "threshold": 0.9,
+            "treatment_median": 3.949679947871906,
+            "reference_median": 3.8219450362831564,
+            "updates_saved": -0.37796088207166273,
+            "updates_saved_ci": [
+              -1.3374466607250441,
+              0.5224872324179062
+            ],
+            "n_facts": 192,
+            "treatment_reach_rate": 0.9895833333333334,
+            "reference_reach_rate": 0.9947916666666666,
+            "primary_pass": false,
+            "n_boot": 2000
+          },
+          "threshold": 0.9
+        },
+        {
+          "stream_steps": 150,
+          "delta_log_odds": 0.49027780744134547,
+          "delta_log_odds_ci": [
+            0.4102970934511847,
+            0.5786464089002471
+          ],
+          "mean_js": 0.075923540688198,
+          "learned_exact_match": 0.23177083333333334,
+          "control_exact_match": 0.13541666666666666,
+          "n_relearn_curves": 4608,
+          "treatment": "wrong",
+          "reference": "control",
+          "early_contrast": -0.010168036126822913,
+          "early_contrast_ci": [
+            -0.11833877141030322,
+            0.09444161917628711
+          ],
+          "integrated_gain": -0.15777765459051799,
+          "primary_pass": false,
+          "n_facts": 192,
+          "savings_at_zero_baseline": -0.021931383047639103,
+          "savings_at_zero_baseline_ci": [
+            -0.12939049216218348,
+            0.08419440491875284
+          ],
+          "baseline_slope": -0.11566441837891923,
+          "baseline_slope_ci": [
+            -0.24151137167695083,
+            0.01341042927037815
+          ],
+          "baseline_regression_pass": false,
+          "baseline_d_source": "behavioral_eval",
+          "savings_at_zero_baseline_relearn_k0": -0.019001321140856127,
+          "savings_at_zero_baseline_relearn_k0_ci": [
+            -0.12753684786860453,
+            0.08225710466785026
+          ],
+          "baseline_slope_relearn_k0": -0.11366380521696728,
+          "residual_contrast": -0.0636067907859802,
+          "residual_contrast_ci": [
+            -0.18376085401037393,
+            0.05040408998725761
+          ],
+          "residual_contrast_pass": false,
+          "updates_to_threshold": {
+            "threshold": 0.9,
+            "treatment_median": 3.8698706439629644,
+            "reference_median": 3.7771320905145913,
+            "updates_saved": 0.06475424015715651,
+            "updates_saved_ci": [
+              -0.49743823454637104,
+              0.7666836129336514
+            ],
+            "n_facts": 192,
+            "treatment_reach_rate": 1.0,
+            "reference_reach_rate": 0.9947916666666666,
+            "primary_pass": false,
+            "n_boot": 2000
+          },
+          "threshold": 0.9
+        },
+        {
+          "stream_steps": 200,
+          "delta_log_odds": 0.6004193751629613,
+          "delta_log_odds_ci": [
+            0.5170717814899906,
+            0.6830056146664408
+          ],
+          "mean_js": 0.07141153737073037,
+          "learned_exact_match": 0.2591145833333333,
+          "control_exact_match": 0.13151041666666666,
+          "n_relearn_curves": 4608,
+          "treatment": "wrong",
+          "reference": "control",
+          "early_contrast": -0.024030364639848478,
+          "early_contrast_ci": [
+            -0.13490708536795987,
+            0.0840563223330069
+          ],
+          "integrated_gain": -0.2718137550849783,
+          "primary_pass": false,
+          "n_facts": 192,
+          "savings_at_zero_baseline": -0.04244690797181477,
+          "savings_at_zero_baseline_ci": [
+            -0.1593069158212189,
+            0.07037587966620537
+          ],
+          "baseline_slope": -0.09839616764909148,
+          "baseline_slope_ci": [
+            -0.2549269942327733,
+            0.06162912562079792
+          ],
+          "baseline_regression_pass": false,
+          "baseline_d_source": "behavioral_eval",
+          "savings_at_zero_baseline_relearn_k0": -0.04893077184364125,
+          "savings_at_zero_baseline_relearn_k0_ci": [
+            -0.15483743592077293,
+            0.06684983915066893
+          ],
+          "baseline_slope_relearn_k0": -0.19212969558491497,
+          "residual_contrast": -0.07565218048813575,
+          "residual_contrast_ci": [
+            -0.18328486570329305,
+            0.033189721322846324
+          ],
+          "residual_contrast_pass": false,
+          "updates_to_threshold": {
+            "threshold": 0.9,
+            "treatment_median": 3.826561863162148,
+            "reference_median": 3.7351264397515127,
+            "updates_saved": -0.5546372979059516,
+            "updates_saved_ci": [
+              -1.509051981205531,
+              0.2211710624063044
+            ],
+            "n_facts": 192,
+            "treatment_reach_rate": 0.9895833333333334,
+            "reference_reach_rate": 0.9947916666666666,
+            "primary_pass": false,
+            "n_boot": 2000
+          },
+          "threshold": 0.9
+        },
+        {
+          "stream_steps": 250,
+          "delta_log_odds": 0.7982752841635768,
+          "delta_log_odds_ci": [
+            0.705093759351141,
+            0.8917428564489568
+          ],
+          "mean_js": 0.08963887733230551,
+          "learned_exact_match": 0.3046875,
+          "control_exact_match": 0.12109375,
+          "n_relearn_curves": 4608,
+          "treatment": "wrong",
+          "reference": "control",
+          "early_contrast": -0.056947447489991115,
+          "early_contrast_ci": [
+            -0.16303146779042715,
+            0.06323821449699854
+          ],
+          "integrated_gain": -0.4342441052685717,
+          "primary_pass": false,
+          "n_facts": 192,
+          "savings_at_zero_baseline": -0.07547876109326578,
+          "savings_at_zero_baseline_ci": [
+            -0.20156614155975028,
+            0.05270447599716052
+          ],
+          "baseline_slope": -0.07309617370824578,
+          "baseline_slope_ci": [
+            -0.21822267345163218,
+            0.07376096045612186
+          ],
+          "baseline_regression_pass": false,
+          "baseline_d_source": "behavioral_eval",
+          "savings_at_zero_baseline_relearn_k0": -0.08477985543120753,
+          "savings_at_zero_baseline_relearn_k0_ci": [
+            -0.19825001844862158,
+            0.033338341394655746
+          ],
+          "baseline_slope_relearn_k0": -0.1839727740434045,
+          "residual_contrast": -0.12618562029223723,
+          "residual_contrast_ci": [
+            -0.24519609679221716,
+            -0.010378305621125548
+          ],
+          "residual_contrast_pass": false,
+          "updates_to_threshold": {
+            "threshold": 0.9,
+            "treatment_median": 3.745803665113848,
+            "reference_median": 3.6198351575840206,
+            "updates_saved": -1.0151256289517843,
+            "updates_saved_ci": [
+              -2.070227086833233,
+              -0.1520808933097829
+            ],
+            "n_facts": 192,
+            "treatment_reach_rate": 0.9791666666666666,
+            "reference_reach_rate": 0.9947916666666666,
+            "primary_pass": false,
+            "n_boot": 2000
+          },
+          "threshold": 0.9
+        },
+        {
+          "stream_steps": 400,
+          "delta_log_odds": 0.8900978157173628,
+          "delta_log_odds_ci": [
+            0.7987081943900252,
+            0.9893080993555307
+          ],
+          "mean_js": 0.0973147374311319,
+          "learned_exact_match": 0.3450520833333333,
+          "control_exact_match": 0.12239583333333333,
+          "n_relearn_curves": 4608,
+          "treatment": "wrong",
+          "reference": "control",
+          "early_contrast": -0.0350820952837131,
+          "early_contrast_ci": [
+            -0.15428346641656274,
+            0.08090977728841343
+          ],
+          "integrated_gain": -0.28996046198611825,
+          "primary_pass": false,
+          "n_facts": 192,
+          "savings_at_zero_baseline": -0.06753678806992766,
+          "savings_at_zero_baseline_ci": [
+            -0.19311705203928706,
+            0.060795558352843206
+          ],
+          "baseline_slope": -0.11131591263764476,
+          "baseline_slope_ci": [
+            -0.24336687105568663,
+            0.016058798458452577
+          ],
+          "baseline_regression_pass": false,
+          "baseline_d_source": "behavioral_eval",
+          "savings_at_zero_baseline_relearn_k0": -0.07469233646547621,
+          "savings_at_zero_baseline_relearn_k0_ci": [
+            -0.1912946316788105,
+            0.050789097080773137
+          ],
+          "baseline_slope_relearn_k0": -0.22417565332866332,
+          "residual_contrast": -0.1175568027721241,
+          "residual_contrast_ci": [
+            -0.23611586035929188,
+            -0.00456715715676155
+          ],
+          "residual_contrast_pass": false,
+          "updates_to_threshold": {
+            "threshold": 0.9,
+            "treatment_median": 3.727730779501371,
+            "reference_median": 3.633528110926459,
+            "updates_saved": -0.9124286111793046,
+            "updates_saved_ci": [
+              -2.0806819739585607,
+              0.0555800759613793
+            ],
+            "n_facts": 192,
+            "treatment_reach_rate": 0.984375,
+            "reference_reach_rate": 0.9947916666666666,
+            "primary_pass": false,
+            "n_boot": 2000
+          },
+          "threshold": 0.9
+        }
+      ]
+    }
+  },
+  "deepest_forgetting_step": 125,
+  "deepest_forgetting_delta_log_odds": 0.4589964824051676,
+  "savings_at_deepest": 0.14538771183368487,
+  "savings_at_deepest_ci": [
+    0.03360329963313184,
+    0.25647256741068186
+  ],
+  "savings_at_deepest_pass": true,
+  "savings_at_zero_baseline_at_deepest": 0.2670192366166273,
+  "savings_at_zero_baseline_at_deepest_ci": [
+    0.12461302449471041,
+    0.40644777756375894
+  ],
+  "baseline_slope_at_deepest": -0.24122041038545894,
+  "residual_contrast": 0.23407019301302237,
+  "residual_contrast_ci": [
+    0.1233564273124765,
+    0.34889661478337003
+  ],
+  "residual_contrast_pass": true
+}

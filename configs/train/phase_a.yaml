@@ -1,0 +1,28 @@
+optimizer:
+  name: adamw
+  lr: 2.0e-5
+  betas: [0.9, 0.95]
+  weight_decay: 0.1
+  grad_clip: 1.0
+train:
+  effective_batch_size: 64
+  micro_batch_size: 16
+  max_seq_length: 256
+  warmup_updates: 100
+  lr_schedule: cosine
+  # Supervise answer tokens only (matches relearning; full-seq CE underfit bindings).
+  answer_token_only_loss: true
+  # Joint complementary stopping on the 384 development facts.
+  target_exact_match: 0.90
+  # Learned target log-odds must exceed matched-control by at least this much.
+  min_log_odds_separation: 1.0
+  # Control must not acquire the untrained target binding (mean target LO upper bound).
+  control_residual_log_odds_max: -0.5
+  # Wrong-answer arm (3-arm only): residual LO on the *true* a must be strongly negative.
+  wrong_residual_log_odds_max: -1.0
+  eval_every_updates: 250
+  eval_facts_per_history: 96
+  stop_on_target: true
+  require_target_exact_match: true
+  # 5760 examples (10 per fact x 576) / 64 per update ≈ 90 updates per epoch.
+  max_updates: 8000

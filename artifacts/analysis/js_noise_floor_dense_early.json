@@ -1,0 +1,238 @@
+{
+  "tag": "dense_early",
+  "seeds": [
+    0,
+    1,
+    2
+  ],
+  "steps": [
+    0,
+    25,
+    50,
+    75,
+    100,
+    125,
+    150,
+    175,
+    200,
+    225,
+    250,
+    275,
+    300,
+    325,
+    350,
+    375,
+    400
+  ],
+  "null_timeline": [
+    {
+      "stream_steps": 0,
+      "mean_js": 0.20490479284696683,
+      "mean_js_ci": [
+        0.1966650337788074,
+        0.212583241341561
+      ],
+      "n_pairs": 3456,
+      "learned_mean_js": 0.04232008150437007,
+      "control_mean_js": 0.36748950418956355
+    },
+    {
+      "stream_steps": 25,
+      "mean_js": 0.16300868781188893,
+      "mean_js_ci": [
+        0.15698827830973672,
+        0.16860913777009218
+      ],
+      "n_pairs": 3456,
+      "learned_mean_js": 0.05810661042896945,
+      "control_mean_js": 0.2679107651948084
+    },
+    {
+      "stream_steps": 50,
+      "mean_js": 0.052934193595071746,
+      "mean_js_ci": [
+        0.051719195718845125,
+        0.054136031827075604
+      ],
+      "n_pairs": 3456,
+      "learned_mean_js": 0.05442450286422706,
+      "control_mean_js": 0.051443884325916435
+    },
+    {
+      "stream_steps": 75,
+      "mean_js": 0.050579077118643255,
+      "mean_js_ci": [
+        0.04948262703037781,
+        0.0516197719050393
+      ],
+      "n_pairs": 3456,
+      "learned_mean_js": 0.051507349867018604,
+      "control_mean_js": 0.04965080437026789
+    },
+    {
+      "stream_steps": 100,
+      "mean_js": 0.046589383007007004,
+      "mean_js_ci": [
+        0.045622983351249605,
+        0.04751916080590973
+      ],
+      "n_pairs": 3456,
+      "learned_mean_js": 0.04671107603471216,
+      "control_mean_js": 0.046467689979301854
+    },
+    {
+      "stream_steps": 125,
+      "mean_js": 0.04836695433020321,
+      "mean_js_ci": [
+        0.04740349205975905,
+        0.04929461075857299
+      ],
+      "n_pairs": 3456,
+      "learned_mean_js": 0.048840417855556297,
+      "control_mean_js": 0.047893490804850114
+    },
+    {
+      "stream_steps": 150,
+      "mean_js": 0.04009416089982532,
+      "mean_js_ci": [
+        0.03923230475423439,
+        0.04099347718247033
+      ],
+      "n_pairs": 3456,
+      "learned_mean_js": 0.0404513515016733,
+      "control_mean_js": 0.03973697029797735
+    },
+    {
+      "stream_steps": 175,
+      "mean_js": 0.04243859224575015,
+      "mean_js_ci": [
+        0.04148194287380901,
+        0.04335481497790151
+      ],
+      "n_pairs": 3456,
+      "learned_mean_js": 0.04274500643865218,
+      "control_mean_js": 0.042132178052848114
+    },
+    {
+      "stream_steps": 200,
+      "mean_js": 0.0477299143716655,
+      "mean_js_ci": [
+        0.046734429934925284,
+        0.048771362477764986
+      ],
+      "n_pairs": 3456,
+      "learned_mean_js": 0.04746870811432762,
+      "control_mean_js": 0.047991120629003396
+    },
+    {
+      "stream_steps": 225,
+      "mean_js": 0.0448369247126016,
+      "mean_js_ci": [
+        0.043908116953176,
+        0.04575978115241625
+      ],
+      "n_pairs": 3456,
+      "learned_mean_js": 0.04593344422292578,
+      "control_mean_js": 0.04374040520227743
+    },
+    {
+      "stream_steps": 250,
+      "mean_js": 0.05386771239687182,
+      "mean_js_ci": [
+        0.05271077146393642,
+        0.0551520700861
+      ],
+      "n_pairs": 3456,
+      "learned_mean_js": 0.05416378589849712,
+      "control_mean_js": 0.053571638895246514
+    },
+    {
+      "stream_steps": 275,
+      "mean_js": 0.05295042911073854,
+      "mean_js_ci": [
+        0.051791567406078175,
+        0.05413541255316315
+      ],
+      "n_pairs": 3456,
+      "learned_mean_js": 0.05373939433885187,
+      "control_mean_js": 0.0521614638826252
+    },
+    {
+      "stream_steps": 300,
+      "mean_js": 0.05352181699338305,
+      "mean_js_ci": [
+        0.0523140203441022,
+        0.054759404367384974
+      ],
+      "n_pairs": 3456,
+      "learned_mean_js": 0.054322149761891786,
+      "control_mean_js": 0.05272148422487432
+    },
+    {
+      "stream_steps": 325,
+      "mean_js": 0.054022567242832366,
+      "mean_js_ci": [
+        0.05280751958098026,
+        0.05526944766424798
+      ],
+      "n_pairs": 3456,
+      "learned_mean_js": 0.05464793015905738,
+      "control_mean_js": 0.053397204326607356
+    },
+    {
+      "stream_steps": 350,
+      "mean_js": 0.05438451357279071,
+      "mean_js_ci": [
+        0.053201552102461705,
+        0.05562220004364833
+      ],
+      "n_pairs": 3456,
+      "learned_mean_js": 0.05497876280721873,
+      "control_mean_js": 0.0537902643383627
+    },
+    {
+      "stream_steps": 375,
+      "mean_js": 0.054331455113904484,
+      "mean_js_ci": [
+        0.053159695347987986,
+        0.05562988596714673
+      ],
+      "n_pairs": 3456,
+      "learned_mean_js": 0.054964038532879345,
+      "control_mean_js": 0.05369887169492963
+    },
+    {
+      "stream_steps": 400,
+      "mean_js": 0.0543837213855337,
+      "mean_js_ci": [
+        0.05312279521913894,
+        0.0556194996344204
+      ],
+      "n_pairs": 3456,
+      "learned_mean_js": 0.05504802193776705,
+      "control_mean_js": 0.05371942083330036
+    }
+  ],
+  "null_min_mean_js": 0.04009416089982532,
+  "null_at_js_trough": {
+    "stream_steps": 150,
+    "mean_js": 0.04009416089982532,
+    "mean_js_ci": [
+      0.03923230475423439,
+      0.04099347718247033
+    ]
+  },
+  "pilot_margin": 0.03,
+  "confirmatory_margin": 0.02,
+  "measurement_floor": {
+    "mean_js": 0.19084317936951115,
+    "mean_js_ci": [
+      0.18920070104233477,
+      0.19264310723873218
+    ],
+    "n_pairs": 34560,
+    "n_files": 60,
+    "note": "JS between the two behavioral templates of a single model"
+  },
+  "caveat": "Cross-seed same-history JS is an UPPER bound on pure seed noise: Phase A stop steps differ across seeds and history assignment is reshuffled. The between-template measurement floor is a LOWER bound."
+}

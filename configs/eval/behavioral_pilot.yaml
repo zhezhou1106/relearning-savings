@@ -1,0 +1,9 @@
+margins:
+  log_odds: 0.5
+  js_distance: 0.03
+confidence_level: 0.95
+primary_metric: target_log_odds
+n_boot: 2000
+simultaneous_correction: none
+n_behavioral_quantities: 2
+pilot_note: Recalibrated from baseline Phase-B paired dispersion; see artifacts/analysis/margin_recalibration.json

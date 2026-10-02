@@ -1,0 +1,43 @@
+{
+  "n_facts": 576,
+  "n_runs": 3,
+  "n_examples": {
+    "0": 5760,
+    "1": 5760,
+    "2": 5760
+  },
+  "model_id": "Qwen/Qwen2.5-1.5B",
+  "dry_run": false,
+  "eval_every_updates": 250,
+  "answer_token_only_loss": true,
+  "wrong_residual_log_odds_max": -1.0,
+  "complementary": 1,
+  "final_step": 750,
+  "earliest_pass": 500,
+  "gate_history": [
+    {
+      "step": 250,
+      "learned": 0.5104166666666666,
+      "control": 0.46875,
+      "wrong": 0.5833333333333334,
+      "n_per_history": 96.0,
+      "learned_target_log_odds": -0.30890281056824037,
+      "control_target_log_odds": -2.7393525427502037,
+      "wrong_target_log_odds": -3.48704499250073,
+      "log_odds_separation": 2.4304497321819634
+    },
+    {
+      "step": 500,
+      "learned": 0.9479166666666666,
+      "control": 0.9895833333333334,
+      "wrong": 0.921875,
+      "n_per_history": 96.0,
+      "learned_target_log_odds": 4.308638971574221,
+      "control_target_log_odds": -3.113115140537111,
+      "wrong_target_log_odds": -8.121168116030018,
+      "log_odds_separation": 7.421754112111332
+    }
+  ],
+  "checkpoint": "artifacts/runs/phase1_3arm/seed_0/c1/phase_a/checkpoint",
+  "target_reached": true
+}

@@ -1,0 +1,46 @@
+# Python
+__pycache__/
+*.py[cod]
+*$py.class
+*.egg-info/
+.eggs/
+dist/
+build/
+.venv/
+venv/
+
+# Secrets / local env
+.env
+.env.*
+
+# Heavy or regenerable artifacts. The lightweight outputs released with the
+# paper (curves, evaluations, analysis JSON/PDF) stay tracked under artifacts/.
+artifacts/hf_cache/
+artifacts/wandb/
+artifacts/paper/
+artifacts/**/checkpoint/
+artifacts/**/ckpt_*/
+artifacts/**/metrics/
+artifacts/**/relearn/**/curve.json
+artifacts/runs/*/seed_*/dev_gaps_*.json
+*.pt
+*.bin
+*.safetensors
+.cache/
+.pytest_cache/
+.mypy_cache/
+.ruff_cache/
+
+# Hugging Face / local model caches
+hf_cache/
+.huggingface/
+
+# OS / IDE
+.DS_Store
+.idea/
+.vscode/
+*.swp
+
+# Experiment tracking
+wandb/
+*.log

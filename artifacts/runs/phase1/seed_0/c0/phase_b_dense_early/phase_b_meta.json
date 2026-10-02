@@ -1,0 +1,29 @@
+{
+  "n_stream_examples": 6000,
+  "n_overwrite_examples": 0,
+  "overwrite_panel": false,
+  "answer_token_only_loss": false,
+  "total_updates": 400,
+  "checkpoint_steps": [
+    0,
+    25,
+    50,
+    75,
+    100,
+    125,
+    150,
+    175,
+    200,
+    225,
+    250,
+    275,
+    300,
+    325,
+    350,
+    375,
+    400
+  ],
+  "phase_a_ckpt": "artifacts/runs/phase1/seed_0/c0/phase_a/checkpoint",
+  "n_excluded_entities": 1152,
+  "dry_run": false
+}

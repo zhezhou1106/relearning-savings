@@ -1,0 +1,54 @@
+{
+  "n_facts": 576,
+  "n_examples_c0": 5760,
+  "n_examples_c1": 5760,
+  "model_id": "Qwen/Qwen2.5-1.5B",
+  "dry_run": false,
+  "eval_every_updates": 250,
+  "answer_token_only_loss": true,
+  "final_step": 500,
+  "target_reached": true,
+  "gate_history": [
+    {
+      "step": 250,
+      "c0": {
+        "learned": 0.5260416666666666,
+        "control": 0.3333333333333333,
+        "n_per_history": 96.0,
+        "learned_target_log_odds": -0.45303340965063815,
+        "control_target_log_odds": -2.516520642038374,
+        "log_odds_separation": 2.0634872323877356
+      },
+      "c1": {
+        "learned": 0.5833333333333334,
+        "control": 0.484375,
+        "n_per_history": 96.0,
+        "learned_target_log_odds": -0.09472389114757222,
+        "control_target_log_odds": -2.7554238286891923,
+        "log_odds_separation": 2.66069993754162
+      }
+    },
+    {
+      "step": 500,
+      "c0": {
+        "learned": 0.9166666666666666,
+        "control": 0.9947916666666666,
+        "n_per_history": 96.0,
+        "learned_target_log_odds": 4.228841585167846,
+        "control_target_log_odds": -3.3685444191797766,
+        "log_odds_separation": 7.597386004347623
+      },
+      "c1": {
+        "learned": 0.9583333333333334,
+        "control": 0.9895833333333334,
+        "n_per_history": 96.0,
+        "learned_target_log_odds": 4.349546593912197,
+        "control_target_log_odds": -2.7466051706472183,
+        "log_odds_separation": 7.096151764559416
+      }
+    }
+  ],
+  "checkpoint_c0": "artifacts/runs/phase1/seed_0/c0/phase_a/checkpoint",
+  "checkpoint_c1": "artifacts/runs/phase1/seed_0/c1/phase_a/checkpoint",
+  "complementary": 0
+}

@@ -1,0 +1,19 @@
+{
+  "n_facts": 192,
+  "n_candidates": 288,
+  "n_rejected": 35,
+  "n_excluded_entities": 8833,
+  "n_entities_per_pair": 4,
+  "parquet": "data/facts/fresh_pool.parquet",
+  "screening": {
+    "mode": "model_screen",
+    "n_candidates": 288,
+    "n_kept": 192,
+    "n_rejected": 35,
+    "reject_frac": 0.12152777777777778,
+    "max_reject_frac": 0.4,
+    "warn_high_reject": false,
+    "n_duplicate_entities": 0,
+    "n_contradictory_bindings": 0
+  }
+}
